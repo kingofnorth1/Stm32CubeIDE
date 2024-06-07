@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+    <libraryInfo home="D:\java\java_8\jdk-8" version="1.8.0_333">
+        <bootpath>
+            <entry path="D:\java\java_8\jdk-8\lib\resources.jar"/>
+            <entry path="D:\java\java_8\jdk-8\lib\rt.jar"/>
+            <entry path="D:\java\java_8\jdk-8\lib\sunrsasign.jar"/>
+            <entry path="D:\java\java_8\jdk-8\lib\jsse.jar"/>
+            <entry path="D:\java\java_8\jdk-8\lib\jce.jar"/>
+            <entry path="D:\java\java_8\jdk-8\lib\charsets.jar"/>
+            <entry path="D:\java\java_8\jdk-8\lib\jfr.jar"/>
+            <entry path="D:\java\java_8\jdk-8\classes"/>
+        </bootpath>
+        <extensionDirs>
+            <entry path="D:\java\java_8\jdk-8\lib\ext"/>
+            <entry path="C:\Windows\Sun\Java\lib\ext"/>
+        </extensionDirs>
+        <endorsedDirs>
+            <entry path="D:\java\java_8\jdk-8\lib\endorsed"/>
+        </endorsedDirs>
+    </libraryInfo>
+    <libraryInfo home="I:\software\STM32CubeIDE_1.15.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.jre.win64_3.1.0.202310310920\jre" version="17.0.8.1"/>
+    <libraryInfo home="I:\software\STM32CubeIDE_1.15.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.jre.win64_3.1.0.202310310920" version="17.0.8.1"/>
+</libraryInfos>
