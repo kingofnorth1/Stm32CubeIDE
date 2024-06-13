@@ -1,0 +1,15 @@
+/*
+ * oled.c
+ *
+ *  Created on: Jun 14, 2024
+ *      Author: bzah
+ */
+#include "oled.c"
+
+#define OLED_ADDRESS 0x78
+
+void OLED_SendCmd(uint8_t cmd){
+	uint8_t sendBuffer[2];
+	sendBuffer[0] = 0x00;
+}
+

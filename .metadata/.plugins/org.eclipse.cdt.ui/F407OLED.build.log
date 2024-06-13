@@ -1,0 +1,10 @@
+04:33:40 **** Incremental Build of configuration Debug for project F407OLED ****
+make -j8 all 
+arm-none-eabi-size  F407OLED.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10464	     12	   2812	  13288	   33e8	F407OLED.elf
+Finished building: default.size.stdout
+ 
+
+04:33:40 Build Finished. 0 errors, 0 warnings. (took 198ms)
+

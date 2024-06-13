@@ -1,188 +1,21 @@
-07:20:56 **** Incremental Build of configuration Debug for project F407USART ****
-make -j12 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "F407USART.elf" @"objects.list"   -mcpu=cortex-m4 -T"I:\document\Stm32_Cube\F407USART\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F407USART.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: F407USART.elf
+04:33:36 **** Incremental Build of configuration Debug for project F407OLED ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/font.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/font.d" -MT"Core/Src/font.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/font.o"
+arm-none-eabi-gcc -o "F407OLED.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\document\Stm32_Cube\F407OLED\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F407OLED.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: F407OLED.elf
  
-arm-none-eabi-size  F407USART.elf 
-arm-none-eabi-objdump -h -S F407USART.elf  > "F407USART.list"
+arm-none-eabi-size  F407OLED.elf 
+arm-none-eabi-objdump -h -S F407OLED.elf  > "F407OLED.list"
    text	   data	    bss	    dec	    hex	filename
-   8472	     12	   1644	  10128	   2790	F407USART.elf
+  10464	     12	   2812	  13288	   33e8	F407OLED.elf
 Finished building: default.size.stdout
  
-Finished building: F407USART.list
+Finished building: F407OLED.list
  
-07:21:00 **** Incremental Build of configuration Debug for project F407USART ****
-make -j12 all 
-arm-none-eabi-size  F407USART.elf 
+04:33:40 **** Incremental Build of configuration Debug for project F407OLED ****
+make -j8 all 
+arm-none-eabi-size  F407OLED.elf 
    text	   data	    bss	    dec	    hex	filename
-   8472	     12	   1644	  10128	   2790	F407USART.elf
+  10464	     12	   2812	  13288	   33e8	F407OLED.elf
 Finished building: default.size.stdout
- 
-07:22:17 **** Incremental Build of configuration Debug for project F407USART ****
-make -j12 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "F407USART.elf" @"objects.list"   -mcpu=cortex-m4 -T"I:\document\Stm32_Cube\F407USART\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F407USART.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: F407USART.elf
- 
-arm-none-eabi-size  F407USART.elf 
-arm-none-eabi-objdump -h -S F407USART.elf  > "F407USART.list"
-   text	   data	    bss	    dec	    hex	filename
-   8472	     12	   1644	  10128	   2790	F407USART.elf
-Finished building: default.size.stdout
- 
-Finished building: F407USART.list
- 
-07:23:10 **** Incremental Build of configuration Debug for project F407USART ****
-make -j12 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "F407USART.elf" @"objects.list"   -mcpu=cortex-m4 -T"I:\document\Stm32_Cube\F407USART\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F407USART.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: F407USART.elf
- 
-arm-none-eabi-size  F407USART.elf 
-arm-none-eabi-objdump -h -S F407USART.elf  > "F407USART.list"
-   text	   data	    bss	    dec	    hex	filename
-   8472	     12	   1644	  10128	   2790	F407USART.elf
-Finished building: default.size.stdout
- 
-Finished building: F407USART.list
- 
-07:25:53 **** Incremental Build of configuration Debug for project F407USART ****
-make -j12 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "F407USART.elf" @"objects.list"   -mcpu=cortex-m4 -T"I:\document\Stm32_Cube\F407USART\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F407USART.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: F407USART.elf
- 
-arm-none-eabi-size  F407USART.elf 
-arm-none-eabi-objdump -h -S F407USART.elf  > "F407USART.list"
-   text	   data	    bss	    dec	    hex	filename
-   8472	     12	   1644	  10128	   2790	F407USART.elf
-Finished building: default.size.stdout
- 
-Finished building: F407USART.list
- 
-07:27:43 **** Incremental Build of configuration Debug for project F407USART ****
-make -j12 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "F407USART.elf" @"objects.list"   -mcpu=cortex-m4 -T"I:\document\Stm32_Cube\F407USART\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F407USART.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: F407USART.elf
- 
-arm-none-eabi-size  F407USART.elf 
-arm-none-eabi-objdump -h -S F407USART.elf  > "F407USART.list"
-   text	   data	    bss	    dec	    hex	filename
-   8472	     12	   1644	  10128	   2790	F407USART.elf
-Finished building: default.size.stdout
- 
-Finished building: F407USART.list
- 
-03:22:58 **** Incremental Build of configuration Debug for project F407USART ****
-make -j12 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
-arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
-arm-none-eabi-gcc -o "F407USART.elf" @"objects.list"   -mcpu=cortex-m4 -T"I:\document\Stm32_Cube\F407USART\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F407USART.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: F407USART.elf
- 
-arm-none-eabi-size  F407USART.elf 
-arm-none-eabi-objdump -h -S F407USART.elf  > "F407USART.list"
-   text	   data	    bss	    dec	    hex	filename
-  10476	     12	   1644	  12132	   2f64	F407USART.elf
-Finished building: default.size.stdout
- 
-Finished building: F407USART.list
- 
-04:09:22 **** Incremental Build of configuration Debug for project F407USART ****
-make -j12 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "F407USART.elf" @"objects.list"   -mcpu=cortex-m4 -T"I:\document\Stm32_Cube\F407USART\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F407USART.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-I:/software/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/stm32f4xx_hal_msp.o: in function `HAL_UART_MspInit':
-I:/document/Stm32_Cube/F407USART/Debug/../Core/Src/stm32f4xx_hal_msp.c:87: multiple definition of `HAL_UART_MspInit'; ./Core/Src/main.o:I:/document/Stm32_Cube/F407USART/Debug/../Core/Src/main.c:75: first defined here
-collect2.exe: error: ld returned 1 exit status
-make: *** [makefile:64: F407USART.elf] Error 1
-"make -j12 all" terminated with exit code 2. Build might be incomplete.
-04:24:00 **** Incremental Build of configuration Debug for project F407USART ****
-make -j12 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "F407USART.elf" @"objects.list"   -mcpu=cortex-m4 -T"I:\document\Stm32_Cube\F407USART\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F407USART.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: F407USART.elf
- 
-arm-none-eabi-size  F407USART.elf 
-arm-none-eabi-objdump -h -S F407USART.elf  > "F407USART.list"
-   text	   data	    bss	    dec	    hex	filename
-  10476	     12	   1644	  12132	   2f64	F407USART.elf
-Finished building: default.size.stdout
- 
-Finished building: F407USART.list
- 
-04:47:23 **** Incremental Build of configuration Debug for project F407USART ****
-make -j12 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
-arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
-arm-none-eabi-gcc -o "F407USART.elf" @"objects.list"   -mcpu=cortex-m4 -T"I:\document\Stm32_Cube\F407USART\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F407USART.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: F407USART.elf
- 
-arm-none-eabi-size  F407USART.elf 
-arm-none-eabi-objdump -h -S F407USART.elf  > "F407USART.list"
-   text	   data	    bss	    dec	    hex	filename
-  13692	     12	   1836	  15540	   3cb4	F407USART.elf
-Finished building: default.size.stdout
- 
-Finished building: F407USART.list
- 
-04:53:02 **** Incremental Build of configuration Debug for project F407USART ****
-make -j12 all 
-arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
-arm-none-eabi-gcc -o "F407USART.elf" @"objects.list"   -mcpu=cortex-m4 -T"I:\document\Stm32_Cube\F407USART\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F407USART.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: F407USART.elf
- 
-arm-none-eabi-size  F407USART.elf 
-arm-none-eabi-objdump -h -S F407USART.elf  > "F407USART.list"
-   text	   data	    bss	    dec	    hex	filename
-  13692	     12	   1836	  15540	   3cb4	F407USART.elf
-Finished building: default.size.stdout
- 
-Finished building: F407USART.list
- 
-04:59:09 **** Incremental Build of configuration Debug for project F407USART ****
-make -j12 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "F407USART.elf" @"objects.list"   -mcpu=cortex-m4 -T"I:\document\Stm32_Cube\F407USART\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F407USART.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: F407USART.elf
- 
-arm-none-eabi-size  F407USART.elf 
-arm-none-eabi-objdump -h -S F407USART.elf  > "F407USART.list"
-   text	   data	    bss	    dec	    hex	filename
-  13908	     12	   1852	  15772	   3d9c	F407USART.elf
-Finished building: default.size.stdout
- 
-Finished building: F407USART.list
- 
-05:02:50 **** Incremental Build of configuration Debug for project F407USART ****
-make -j12 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "F407USART.elf" @"objects.list"   -mcpu=cortex-m4 -T"I:\document\Stm32_Cube\F407USART\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F407USART.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: F407USART.elf
- 
-arm-none-eabi-size  F407USART.elf 
-arm-none-eabi-objdump -h -S F407USART.elf  > "F407USART.list"
-   text	   data	    bss	    dec	    hex	filename
-  13928	     12	   1852	  15792	   3db0	F407USART.elf
-Finished building: default.size.stdout
- 
-Finished building: F407USART.list
- 
-05:03:05 **** Incremental Build of configuration Debug for project F407USART ****
-make -j12 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "F407USART.elf" @"objects.list"   -mcpu=cortex-m4 -T"I:\document\Stm32_Cube\F407USART\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F407USART.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: F407USART.elf
- 
-arm-none-eabi-size  F407USART.elf 
-arm-none-eabi-objdump -h -S F407USART.elf  > "F407USART.list"
-   text	   data	    bss	    dec	    hex	filename
-  13948	     12	   1852	  15812	   3dc4	F407USART.elf
-Finished building: default.size.stdout
- 
-Finished building: F407USART.list
  
