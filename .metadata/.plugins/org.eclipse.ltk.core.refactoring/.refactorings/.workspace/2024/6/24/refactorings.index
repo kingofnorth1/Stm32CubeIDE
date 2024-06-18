@@ -8,3 +8,7 @@
 1718274190435	Delete resource 'F407iic_Interrupt_DMA'
 1718274223310	Delete resource 'F407iic'
 1718274566164	Delete resource 'F407iic_Interrupt_DMA/Debug'
+1718392507726	Delete resource 'F407TIM'
+1718393118318	Delete resource 'F407TIM'
+1718443376602	Delete resource 'F407ExternaIInput'
+1718476295170	Rename resource 'F407iic'

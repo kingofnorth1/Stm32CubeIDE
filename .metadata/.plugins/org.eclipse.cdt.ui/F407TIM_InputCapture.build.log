@@ -1,0 +1,10 @@
+02:30:14 **** Incremental Build of configuration Debug for project F407TIM_InputCapture ****
+make -j8 all 
+arm-none-eabi-size  F407TIM_InputCapture.elf 
+   text	   data	    bss	    dec	    hex	filename
+  32724	    468	   3236	  36428	   8e4c	F407TIM_InputCapture.elf
+Finished building: default.size.stdout
+ 
+
+02:30:15 Build Finished. 0 errors, 0 warnings. (took 734ms)
+

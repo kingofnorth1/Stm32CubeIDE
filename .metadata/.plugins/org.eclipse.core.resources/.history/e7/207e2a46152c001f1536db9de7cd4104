@@ -1,0 +1,14 @@
+/*
+ * BMP280.h
+ *
+ *  Created on: Jun 17, 2024
+ *      Author: bzah
+ */
+
+#ifndef INC_BMP280_H_
+#define INC_BMP280_H_
+
+#include "i2c.h"
+void BMP280_Init();
+
+#endif /* INC_BMP280_H_ */
