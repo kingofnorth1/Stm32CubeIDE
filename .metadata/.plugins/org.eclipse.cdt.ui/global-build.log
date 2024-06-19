@@ -1,278 +1,61 @@
-02:06:02 **** Incremental Build of configuration Debug for project F407_BMP280 ****
-make -j8 all 
-arm-none-eabi-gcc -o "F407_BMP280.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\document\Stm32_Cube\F407_BMP280\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F407_BMP280.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: F407_BMP280.elf
+20:36:01 **** Incremental Build of configuration Debug for project F407_FreeRTOS_LED ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/freertos.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/freertos.d" -MT"Core/Src/freertos.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/freertos.o"
+arm-none-eabi-gcc -o "F407_FreeRTOS_LED.elf" @"objects.list"   -mcpu=cortex-m4 -T"I:\document\Stm32_Cube\F407_FreeRTOS_LED\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F407_FreeRTOS_LED.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: F407_FreeRTOS_LED.elf
  
-arm-none-eabi-size  F407_BMP280.elf 
-arm-none-eabi-objdump -h -S F407_BMP280.elf  > "F407_BMP280.list"
+arm-none-eabi-size  F407_FreeRTOS_LED.elf 
+arm-none-eabi-objdump -h -S F407_FreeRTOS_LED.elf  > "F407_FreeRTOS_LED.list"
    text	   data	    bss	    dec	    hex	filename
-  36904	    468	   2068	  39440	   9a10	F407_BMP280.elf
+  12108	     96	  18944	  31148	   79ac	F407_FreeRTOS_LED.elf
 Finished building: default.size.stdout
  
-Finished building: F407_BMP280.list
+Finished building: F407_FreeRTOS_LED.list
  
-02:07:23 **** Incremental Build of configuration Debug for project F407_BMP280 ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/BMP280.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/BMP280.d" -MT"Core/Src/BMP280.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/BMP280.o"
-../Core/Src/BMP280.c: In function 'BMP280_ReadReg':
-../Core/Src/BMP280.c:26:18: warning: unused variable 'data' [-Wunused-variable]
-   26 |         uint32_t data;
-      |                  ^~~~
-arm-none-eabi-gcc -o "F407_BMP280.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\document\Stm32_Cube\F407_BMP280\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F407_BMP280.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: F407_BMP280.elf
- 
-arm-none-eabi-size  F407_BMP280.elf 
-arm-none-eabi-objdump -h -S F407_BMP280.elf  > "F407_BMP280.list"
+20:36:10 **** Incremental Build of configuration Debug for project F407_FreeRTOS_LED ****
+make -j12 all 
+arm-none-eabi-size  F407_FreeRTOS_LED.elf 
    text	   data	    bss	    dec	    hex	filename
-  36920	    468	   2068	  39456	   9a20	F407_BMP280.elf
+  12108	     96	  18944	  31148	   79ac	F407_FreeRTOS_LED.elf
 Finished building: default.size.stdout
  
-Finished building: F407_BMP280.list
+22:19:46 **** Incremental Build of configuration Debug for project F407_FreeRTOS_LED ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/freertos.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/freertos.d" -MT"Core/Src/freertos.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/freertos.o"
+arm-none-eabi-gcc -o "F407_FreeRTOS_LED.elf" @"objects.list"   -mcpu=cortex-m4 -T"I:\document\Stm32_Cube\F407_FreeRTOS_LED\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F407_FreeRTOS_LED.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: F407_FreeRTOS_LED.elf
  
-02:15:33 **** Incremental Build of configuration Debug for project F407_BMP280 ****
-make -j8 all 
-arm-none-eabi-size  F407_BMP280.elf 
+arm-none-eabi-size  F407_FreeRTOS_LED.elf 
+arm-none-eabi-objdump -h -S F407_FreeRTOS_LED.elf  > "F407_FreeRTOS_LED.list"
    text	   data	    bss	    dec	    hex	filename
-  36920	    468	   2068	  39456	   9a20	F407_BMP280.elf
+  12412	     96	  18944	  31452	   7adc	F407_FreeRTOS_LED.elf
 Finished building: default.size.stdout
  
-02:17:45 **** Incremental Build of configuration Debug for project F407_BMP280 ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/BMP280.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/BMP280.d" -MT"Core/Src/BMP280.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/BMP280.o"
-../Core/Src/BMP280.c: In function 'BMP280_ReadReg':
-../Core/Src/BMP280.c:26:18: warning: unused variable 'data' [-Wunused-variable]
-   26 |         uint32_t data;
-      |                  ^~~~
-arm-none-eabi-gcc -o "F407_BMP280.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\document\Stm32_Cube\F407_BMP280\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F407_BMP280.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: F407_BMP280.elf
+Finished building: F407_FreeRTOS_LED.list
  
-arm-none-eabi-size  F407_BMP280.elf 
-arm-none-eabi-objdump -h -S F407_BMP280.elf  > "F407_BMP280.list"
+00:27:15 **** Incremental Build of configuration Debug for project F407_FreeRTOS_LED ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/freertos.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/freertos.d" -MT"Core/Src/freertos.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/freertos.o"
+../Core/Src/freertos.c: In function 'StartDefaultTask':
+../Core/Src/freertos.c:149:11: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  149 |           printf("Test");
+      |           ^~~~~~
+../Core/Src/freertos.c:25:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   24 | #include "cmsis_os.h"
+  +++ |+#include <stdio.h>
+   25 | 
+../Core/Src/freertos.c:149:11: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  149 |           printf("Test");
+      |           ^~~~~~
+../Core/Src/freertos.c:149:11: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "F407_FreeRTOS_LED.elf" @"objects.list"   -mcpu=cortex-m4 -T"I:\document\Stm32_Cube\F407_FreeRTOS_LED\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F407_FreeRTOS_LED.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: F407_FreeRTOS_LED.elf
+ 
+arm-none-eabi-size  F407_FreeRTOS_LED.elf 
+arm-none-eabi-objdump -h -S F407_FreeRTOS_LED.elf  > "F407_FreeRTOS_LED.list"
    text	   data	    bss	    dec	    hex	filename
-  36920	    468	   2068	  39456	   9a20	F407_BMP280.elf
+  16400	    108	  18964	  35472	   8a90	F407_FreeRTOS_LED.elf
 Finished building: default.size.stdout
  
-Finished building: F407_BMP280.list
- 
-02:20:32 **** Incremental Build of configuration Debug for project F407_BMP280 ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/BMP280.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/BMP280.d" -MT"Core/Src/BMP280.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/BMP280.o"
-../Core/Src/BMP280.c: In function 'BMP280_ReadReg':
-../Core/Src/BMP280.c:27:18: warning: unused variable 'data' [-Wunused-variable]
-   27 |         uint32_t data;
-      |                  ^~~~
-arm-none-eabi-gcc -o "F407_BMP280.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\document\Stm32_Cube\F407_BMP280\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F407_BMP280.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: F407_BMP280.elf
- 
-arm-none-eabi-size  F407_BMP280.elf 
-arm-none-eabi-objdump -h -S F407_BMP280.elf  > "F407_BMP280.list"
-   text	   data	    bss	    dec	    hex	filename
-  36920	    468	   2068	  39456	   9a20	F407_BMP280.elf
-Finished building: default.size.stdout
- 
-Finished building: F407_BMP280.list
- 
-02:21:46 **** Incremental Build of configuration Debug for project F407_BMP280 ****
-make -j8 all 
-arm-none-eabi-size  F407_BMP280.elf 
-   text	   data	    bss	    dec	    hex	filename
-  36920	    468	   2068	  39456	   9a20	F407_BMP280.elf
-Finished building: default.size.stdout
- 
-02:22:56 **** Incremental Build of configuration Debug for project F407_BMP280 ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/BMP280.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/BMP280.d" -MT"Core/Src/BMP280.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/BMP280.o"
-../Core/Src/BMP280.c: In function 'BMP280_ReadReg':
-../Core/Src/BMP280.c:27:18: warning: unused variable 'data' [-Wunused-variable]
-   27 |         uint32_t data;
-      |                  ^~~~
-arm-none-eabi-gcc -o "F407_BMP280.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\document\Stm32_Cube\F407_BMP280\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F407_BMP280.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: F407_BMP280.elf
- 
-arm-none-eabi-size  F407_BMP280.elf 
-arm-none-eabi-objdump -h -S F407_BMP280.elf  > "F407_BMP280.list"
-   text	   data	    bss	    dec	    hex	filename
-  36920	    468	   2068	  39456	   9a20	F407_BMP280.elf
-Finished building: default.size.stdout
- 
-Finished building: F407_BMP280.list
- 
-02:25:03 **** Incremental Build of configuration Debug for project F407_BMP280 ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/BMP280.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/BMP280.d" -MT"Core/Src/BMP280.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/BMP280.o"
-../Core/Src/BMP280.c: In function 'BMP280_ReadReg':
-../Core/Src/BMP280.c:27:18: warning: unused variable 'data' [-Wunused-variable]
-   27 |         uint32_t data;
-      |                  ^~~~
-arm-none-eabi-gcc -o "F407_BMP280.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\document\Stm32_Cube\F407_BMP280\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F407_BMP280.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: F407_BMP280.elf
- 
-arm-none-eabi-size  F407_BMP280.elf 
-arm-none-eabi-objdump -h -S F407_BMP280.elf  > "F407_BMP280.list"
-   text	   data	    bss	    dec	    hex	filename
-  36920	    468	   2068	  39456	   9a20	F407_BMP280.elf
-Finished building: default.size.stdout
- 
-Finished building: F407_BMP280.list
- 
-02:26:15 **** Incremental Build of configuration Debug for project F407_BMP280 ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/BMP280.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/BMP280.d" -MT"Core/Src/BMP280.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/BMP280.o"
-../Core/Src/BMP280.c: In function 'BMP280_ReadReg':
-../Core/Src/BMP280.c:27:18: warning: unused variable 'data' [-Wunused-variable]
-   27 |         uint32_t data;
-      |                  ^~~~
-arm-none-eabi-gcc -o "F407_BMP280.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\document\Stm32_Cube\F407_BMP280\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F407_BMP280.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: F407_BMP280.elf
- 
-arm-none-eabi-size  F407_BMP280.elf 
-arm-none-eabi-objdump -h -S F407_BMP280.elf  > "F407_BMP280.list"
-   text	   data	    bss	    dec	    hex	filename
-  36920	    468	   2068	  39456	   9a20	F407_BMP280.elf
-Finished building: default.size.stdout
- 
-Finished building: F407_BMP280.list
- 
-04:21:07 **** Incremental Build of configuration Debug for project F407_BMP280 ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/BMP280.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/BMP280.d" -MT"Core/Src/BMP280.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/BMP280.o"
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/BMP280.c: In function 'BMP280_ReadReg':
-../Core/Src/BMP280.c:35:18: warning: unused variable 'data' [-Wunused-variable]
-   35 |         uint32_t data;
-      |                  ^~~~
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:109:38: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
-  109 |           HAL_UART_Transmit(&huart1, message, strlen(message), HAL_MAX_DELAY);
-      |                                      ^~~~~~~
-      |                                      |
-      |                                      char *
-In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
-                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
-                 from ../Core/Inc/main.h:30,
-                 from ../Core/Src/main.c:20:
-../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
-  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
-      |                                                                ~~~~~~~~~~~~~~~^~~~~
-../Core/Src/main.c:108:46: warning: ' ℃, 湿度: ' directive writing 14 bytes into a region of size between 0 and 11 [-Wformat-overflow=]
-  108 |           sprintf(message, "温度: %.lf ℃, 湿度: %.lf %%\r\n", Temperture, Humidity);
-      |                                       ~~~~~~~~^~
-../Core/Src/main.c:108:11: note: 'sprintf' output between 29 and 647 bytes into a destination of size 20
-  108 |           sprintf(message, "温度: %.lf ℃, 湿度: %.lf %%\r\n", Temperture, Humidity);
-      |           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-arm-none-eabi-gcc -o "F407_BMP280.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\document\Stm32_Cube\F407_BMP280\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F407_BMP280.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: F407_BMP280.elf
- 
-arm-none-eabi-size  F407_BMP280.elf 
-arm-none-eabi-objdump -h -S F407_BMP280.elf  > "F407_BMP280.list"
-   text	   data	    bss	    dec	    hex	filename
-  36920	    468	   2068	  39456	   9a20	F407_BMP280.elf
-Finished building: default.size.stdout
- 
-Finished building: F407_BMP280.list
- 
-04:22:01 **** Incremental Build of configuration Debug for project F407_BMP280 ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/BMP280.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/BMP280.d" -MT"Core/Src/BMP280.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/BMP280.o"
-../Core/Src/BMP280.c: In function 'BMP280_ReadReg':
-../Core/Src/BMP280.c:37:18: warning: unused variable 'data' [-Wunused-variable]
-   37 |         uint32_t data;
-      |                  ^~~~
-arm-none-eabi-gcc -o "F407_BMP280.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\document\Stm32_Cube\F407_BMP280\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F407_BMP280.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: F407_BMP280.elf
- 
-arm-none-eabi-size  F407_BMP280.elf 
-arm-none-eabi-objdump -h -S F407_BMP280.elf  > "F407_BMP280.list"
-   text	   data	    bss	    dec	    hex	filename
-  36928	    468	   2068	  39464	   9a28	F407_BMP280.elf
-Finished building: default.size.stdout
- 
-Finished building: F407_BMP280.list
- 
-04:23:25 **** Incremental Build of configuration Debug for project F407_BMP280 ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/BMP280.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/BMP280.d" -MT"Core/Src/BMP280.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/BMP280.o"
-../Core/Src/BMP280.c: In function 'BMP280_ReadReg':
-../Core/Src/BMP280.c:37:18: warning: unused variable 'data' [-Wunused-variable]
-   37 |         uint32_t data;
-      |                  ^~~~
-arm-none-eabi-gcc -o "F407_BMP280.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\document\Stm32_Cube\F407_BMP280\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F407_BMP280.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: F407_BMP280.elf
- 
-arm-none-eabi-size  F407_BMP280.elf 
-arm-none-eabi-objdump -h -S F407_BMP280.elf  > "F407_BMP280.list"
-   text	   data	    bss	    dec	    hex	filename
-  36928	    468	   2068	  39464	   9a28	F407_BMP280.elf
-Finished building: default.size.stdout
- 
-Finished building: F407_BMP280.list
- 
-04:24:06 **** Incremental Build of configuration Debug for project F407_BMP280 ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/BMP280.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/BMP280.d" -MT"Core/Src/BMP280.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/BMP280.o"
-../Core/Src/BMP280.c: In function 'BMP280_ReadReg':
-../Core/Src/BMP280.c:37:18: warning: unused variable 'data' [-Wunused-variable]
-   37 |         uint32_t data;
-      |                  ^~~~
-arm-none-eabi-gcc -o "F407_BMP280.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\document\Stm32_Cube\F407_BMP280\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F407_BMP280.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: F407_BMP280.elf
- 
-arm-none-eabi-size  F407_BMP280.elf 
-arm-none-eabi-objdump -h -S F407_BMP280.elf  > "F407_BMP280.list"
-   text	   data	    bss	    dec	    hex	filename
-  36968	    468	   2068	  39504	   9a50	F407_BMP280.elf
-Finished building: default.size.stdout
- 
-Finished building: F407_BMP280.list
- 
-04:33:04 **** Incremental Build of configuration Debug for project F407_BMP280 ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/BMP280.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/BMP280.d" -MT"Core/Src/BMP280.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/BMP280.o"
-../Core/Src/BMP280.c: In function 'BMP280_ReadReg':
-../Core/Src/BMP280.c:38:18: warning: unused variable 'data' [-Wunused-variable]
-   38 |         uint32_t data;
-      |                  ^~~~
-arm-none-eabi-gcc -o "F407_BMP280.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\document\Stm32_Cube\F407_BMP280\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F407_BMP280.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: F407_BMP280.elf
- 
-arm-none-eabi-size  F407_BMP280.elf 
-arm-none-eabi-objdump -h -S F407_BMP280.elf  > "F407_BMP280.list"
-   text	   data	    bss	    dec	    hex	filename
-  36928	    468	   2068	  39464	   9a28	F407_BMP280.elf
-Finished building: default.size.stdout
- 
-Finished building: F407_BMP280.list
- 
-04:39:06 **** Incremental Build of configuration Debug for project F407_BMP280 ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:109:38: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
-  109 |           HAL_UART_Transmit(&huart1, message, strlen(message), HAL_MAX_DELAY);
-      |                                      ^~~~~~~
-      |                                      |
-      |                                      char *
-In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
-                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
-                 from ../Core/Inc/main.h:30,
-                 from ../Core/Src/main.c:20:
-../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
-  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
-      |                                                                ~~~~~~~~~~~~~~~^~~~~
-../Core/Src/main.c:108:46: warning: ' ℃, 湿度: ' directive writing 14 bytes into a region of size between 0 and 11 [-Wformat-overflow=]
-  108 |           sprintf(message, "温度: %.lf ℃, 湿度: %.lf %%\r\n", Temperture, Humidity);
-      |                                       ~~~~~~~~^~
-../Core/Src/main.c:108:11: note: 'sprintf' output between 29 and 647 bytes into a destination of size 20
-  108 |           sprintf(message, "温度: %.lf ℃, 湿度: %.lf %%\r\n", Temperture, Humidity);
-      |           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-arm-none-eabi-gcc -o "F407_BMP280.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\document\Stm32_Cube\F407_BMP280\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F407_BMP280.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: F407_BMP280.elf
- 
-arm-none-eabi-size  F407_BMP280.elf 
-arm-none-eabi-objdump -h -S F407_BMP280.elf  > "F407_BMP280.list"
-   text	   data	    bss	    dec	    hex	filename
-  36920	    468	   2068	  39456	   9a20	F407_BMP280.elf
-Finished building: default.size.stdout
- 
-Finished building: F407_BMP280.list
+Finished building: F407_FreeRTOS_LED.list
  

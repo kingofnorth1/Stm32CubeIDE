@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="HAL_TIM_IRQHandler"/>
+		<item key="selection" value="osThreadCreate"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="osThreadCreate"/>
+			<item value="osKernelStart"/>
+			<item value="HAL_I2C"/>
+			<item value="0x3B"/>
+			<item value="#define __FPU_PRESENT 1"/>
+			<item value="#define __FPU_PRESENT 1 /*!&lt; FPU present */"/>
+			<item value="BMP280_Get_Pressure"/>
+			<item value="status_flag"/>
+			<item value="BMP280_STATUS_REG"/>
+			<item value="BMP280_FILTER_MODE_1"/>
 			<item value="HAL_TIM_IRQHandler"/>
 			<item value="htim"/>
 			<item value="oled_drawm"/>
 			<item value="oled_draw"/>
 			<item value="oled_Draw"/>
-			<item value="HAL_UART_MspInit"/>
-			<item value="USE_HAL_UART_REGISTER_CALLBACKS"/>
-			<item value="HAL_UART_MSP"/>
-			<item value="HAL_UART_RxCplt"/>
-			<item value="HAL_UART_RxC"/>
-			<item value="HAL_UART_Rx"/>
-			<item value="HAL_UART"/>
-			<item value="setCompletionProposalAutoActivationCharacters"/>
-			<item value="verify"/>
-			<item value="veri"/>
 		</list>
 		<list key="replacehistory">
 			<item value=""/>
@@ -31,9 +31,9 @@
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item key="DIALOG_X_ORIGIN" value="1045"/>
 		<item key="DIALOG_Y_ORIGIN" value="258"/>
-		<item key="DIALOG_WIDTH" value="369"/>
-		<item key="DIALOG_HEIGHT" value="454"/>
-		<item key="DIALOG_FONT_NAME" value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI"/>
+		<item key="DIALOG_WIDTH" value="319"/>
+		<item key="DIALOG_HEIGHT" value="368"/>
+		<item key="DIALOG_FONT_NAME" value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-24|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
 		<item key="DIALOG_X_ORIGIN" value="724"/>

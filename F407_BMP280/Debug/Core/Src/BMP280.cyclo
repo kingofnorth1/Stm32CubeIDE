@@ -1,3 +1,11 @@
-../Core/Src/BMP280.c:20:6:BMP280_Init	1
-../Core/Src/BMP280.c:30:6:BMP280_RESET	1
-../Core/Src/BMP280.c:36:6:BMP280_ReadReg	1
+../Core/Src/BMP280.c:13:9:BMP280_ReadID	1
+../Core/Src/BMP280.c:20:9:BMP280_Read_Byte	1
+../Core/Src/BMP280.c:30:6:BMP280_Write_Byte	1
+../Core/Src/BMP280.c:38:6:BMP280_Init	1
+../Core/Src/BMP280.c:99:6:BMP280_Set_TemOversamp	1
+../Core/Src/BMP280.c:111:6:BMP280_Set_Standby_FILTER	1
+../Core/Src/BMP280.c:124:5:BMP280_GetStatus	2
+../Core/Src/BMP280.c:136:8:BMP280_Get_Pressure	1
+../Core/Src/BMP280.c:150:8:BMP280_Get_Temperature	1
+../Core/Src/BMP280.c:212:8:bmp280_compensate_T_double	1
+../Core/Src/BMP280.c:224:8:bmp280_compensate_P_double	2

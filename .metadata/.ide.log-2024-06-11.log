@@ -1,0 +1,211 @@
+2024-06-11 03:00:19,733 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Exception in thread "AWT-EventQueue-0" java.util.NoSuchElementException: Vector Enumeration
+2024-06-11 03:00:19,749 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.util.Vector$1.nextElement(Vector.java:344)
+2024-06-11 03:00:19,751 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicTableUI.getPreferredSize(BasicTableUI.java:1790)
+2024-06-11 03:00:19,752 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JComponent.getPreferredSize(JComponent.java:1725)
+2024-06-11 03:00:19,753 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.ScrollPaneLayout.preferredLayoutSize(ScrollPaneLayout.java:503)
+2024-06-11 03:00:19,754 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.preferredSize(Container.java:1826)
+2024-06-11 03:00:19,755 [INFO] PinOutPanel:1561 - setPackage(No Configuration,No Configuration)
+2024-06-11 03:00:19,755 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.getPreferredSize(Container.java:1810)
+2024-06-11 03:00:19,757 [INFO] PinOutPanel:1561 - setPackage(STM32F407VETx,LQFP100)
+2024-06-11 03:00:19,757 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JComponent.getPreferredSize(JComponent.java:1727)
+2024-06-11 03:00:19,758 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.jdesktop.swingx.VerticalLayout.preferredLayoutSize(VerticalLayout.java:80)
+2024-06-11 03:00:19,759 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.preferredSize(Container.java:1826)
+2024-06-11 03:00:19,760 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.getPreferredSize(Container.java:1810)
+2024-06-11 03:00:19,761 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JComponent.getPreferredSize(JComponent.java:1727)
+2024-06-11 03:00:19,763 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.jdesktop.swingx.JXCollapsiblePane$AnimationListener.actionPerformed(JXCollapsiblePane.java:817)
+2024-06-11 03:00:19,765 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.Timer.fireActionPerformed(Timer.java:311)
+2024-06-11 03:00:19,766 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.Timer$DoPostEvent.run(Timer.java:243)
+2024-06-11 03:00:19,768 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+2024-06-11 03:00:19,769 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+2024-06-11 03:00:19,770 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+2024-06-11 03:00:19,771 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+2024-06-11 03:00:19,772 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+2024-06-11 03:00:19,773 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+2024-06-11 03:00:19,774 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+2024-06-11 03:00:19,775 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+2024-06-11 03:00:19,776 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+2024-06-11 03:00:19,778 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:117)
+2024-06-11 03:00:19,780 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:191)
+2024-06-11 03:00:19,781 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:236)
+2024-06-11 03:00:19,783 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:234)
+2024-06-11 03:00:19,784 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:318)
+2024-06-11 03:00:19,785 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:234)
+2024-06-11 03:00:19,785 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Dialog.show(Dialog.java:1080)
+2024-06-11 03:00:19,786 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.show(Component.java:1728)
+2024-06-11 03:00:19,787 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.setVisible(Component.java:1675)
+2024-06-11 03:00:19,787 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Window.setVisible(Window.java:1036)
+2024-06-11 03:00:19,788 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Dialog.setVisible(Dialog.java:1016)
+2024-06-11 03:00:19,789 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.util.ProcessBarDialog.doAction(ProcessBarDialog.java:173)
+2024-06-11 03:00:19,791 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.mxsystem.MxSystem.completeLoadConfig(MxSystem.java:829)
+2024-06-11 03:00:19,792 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.filemanager.engine.OpenFileManager.LoadConfig(OpenFileManager.java:335)
+2024-06-11 03:00:19,794 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.filemanager.engine.OpenFileManager.loadConfigurationFile(OpenFileManager.java:249)
+2024-06-11 03:00:19,796 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.filemanager.engine.MainFileManager.userLoadConfig(MainFileManager.java:315)
+2024-06-11 03:00:19,797 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.filemanager.engine.MainFileManager.userLoadConfig(MainFileManager.java:293)
+2024-06-11 03:00:19,798 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.filemanager.FileManagerView.getSpecificTask(FileManagerView.java:247)
+2024-06-11 03:00:19,800 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.common.mx.editor.CubeMxEditor.getMxTabbedPaneInstance(CubeMxEditor.java:1198)
+2024-06-11 03:00:19,801 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.common.mx.editor.CubeMxEditor$12$1.createSwingComponent(CubeMxEditor.java:1068)
+2024-06-11 03:00:19,802 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.EmbeddedSwingComposite.doComponentCreation(EmbeddedSwingComposite.java:492)
+2024-06-11 03:00:19,804 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.EmbeddedSwingComposite$4.run(EmbeddedSwingComposite.java:291)
+2024-06-11 03:00:19,805 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.AwtEnvironment$2.run(AwtEnvironment.java:166)
+2024-06-11 03:00:19,805 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+2024-06-11 03:00:19,807 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+2024-06-11 03:00:19,808 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+2024-06-11 03:00:19,808 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+2024-06-11 03:00:19,809 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+2024-06-11 03:00:19,811 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+2024-06-11 03:00:19,812 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+2024-06-11 03:00:19,813 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+2024-06-11 03:00:19,815 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+2024-06-11 03:00:19,816 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+2024-06-11 03:00:19,817 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+2024-06-11 03:00:19,819 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+2024-06-11 03:00:19,820 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2024-06-11 03:00:20,039 [INFO] UtilMem:75 - Before build in PCC Used Memory: 593768480 Bytes (1073741824)
+2024-06-11 03:00:20,696 [INFO] UtilMem:75 - After build in PCC Used Memory: 672118512 Bytes (1073741824)
+2024-06-11 03:00:20,720 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,720 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,720 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,720 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,720 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,720 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,720 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,721 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,721 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,721 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,721 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,721 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,721 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,721 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,721 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,721 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,721 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,721 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,721 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,722 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,722 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,722 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,722 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,722 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,723 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,723 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,723 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,723 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,723 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,723 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,724 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,724 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,724 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,724 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,724 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,724 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,724 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,724 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,724 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,725 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,725 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,725 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,725 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,725 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,725 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,725 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,725 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,726 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,726 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,726 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,726 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,726 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,726 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,727 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,727 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,728 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,728 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,728 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-06-11 03:00:20,798 [INFO] ApiDbMcu:508 - Load IP Config File for PDM2PCM
+2024-06-11 03:00:20,936 [INFO] CADModel:165 - CPN selected for project levelSTM32F407VET6
+2024-06-11 03:00:20,936 [INFO] CADModel:114 - Register for checkConnection events
+2024-06-11 03:00:20,983 [INFO] OpenFileManager:343 - Restore cursor
+2024-06-11 03:04:36,996 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 849017080 Bytes (1073741824)
+2024-06-11 03:04:37,067 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 872085752 Bytes (1073741824)
+2024-06-11 03:04:37,715 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 912453880 Bytes (1073741824)
+2024-06-11 03:04:38,178 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-06-11 03:04:38,179 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-06-11 03:04:38,179 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-06-11 03:04:38,179 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-06-11 03:04:38,180 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-06-11 03:04:38,182 [INFO] CodeGenerator:807 - code generatio: config db path: I:\software\STM32CubeIDE_1.15.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.11.1.202404110753\\db\
+2024-06-11 03:04:38,339 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\F407USART\MXTmpFiles\license.tmp_save
+2024-06-11 03:04:38,587 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\F407USART\MXTmpFiles\license.tmp
+2024-06-11 03:04:38,672 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\F407USART\MXTmpFiles\gpio.tmp_save
+2024-06-11 03:04:38,768 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\F407USART\MXTmpFiles\gpio.tmp
+2024-06-11 03:04:38,869 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\F407USART\Core\Src\stm32f4xx_it.c_save
+2024-06-11 03:04:39,015 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\F407USART\Core\Src\stm32f4xx_it.c
+2024-06-11 03:04:39,043 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\F407USART\Core\Inc\stm32f4xx_it.h_save
+2024-06-11 03:04:39,148 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\F407USART\Core\Inc\stm32f4xx_it.h
+2024-06-11 03:04:39,180 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\F407USART\Core\Src\stm32f4xx_hal_msp.c_save
+2024-06-11 03:04:39,297 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\F407USART\Core\Src\stm32f4xx_hal_msp.c
+2024-06-11 03:04:39,311 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\F407USART\MXTmpFiles\system.tmp_save
+2024-06-11 03:04:39,367 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\F407USART\MXTmpFiles\system.tmp
+2024-06-11 03:04:39,394 [INFO] CodeEngine:311 - oldGeneratedFile, I:\document\Stm32_Cube\F407USART\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-06-11 03:04:39,475 [INFO] CodeEngine:335 - Generated code: I:\document\Stm32_Cube\F407USART\Core\Inc\stm32f4xx_hal_conf.h
+2024-06-11 03:04:39,528 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\F407USART\Core\Inc\main.h_save
+2024-06-11 03:04:39,607 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\F407USART\Core\Inc\main.h
+2024-06-11 03:04:39,625 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\F407USART\Core\Src\main.c_save
+2024-06-11 03:04:39,755 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\F407USART\Core\Src\main.c
+2024-06-11 03:04:40,334 [INFO] ProjectBuilder:3163 - Time for Copy HAL[1] : 386mS.
+2024-06-11 03:04:40,340 [INFO] ProjectBuilder:4736 - Project Generator version: 4.3.0-B58
+2024-06-11 03:04:40,405 [INFO] ConfigFileManager:1503 - The Die is : DIE413
+2024-06-11 03:04:40,417 [INFO] ApiDbMcu:508 - Load IP Config File for FATFS
+2024-06-11 03:04:40,428 [INFO] ApiDbMcu:508 - Load IP Config File for FREERTOS
+2024-06-11 03:04:40,436 [INFO] ApiDbMcu:508 - Load IP Config File for LIBJPEG
+2024-06-11 03:04:40,445 [INFO] ApiDbMcu:508 - Load IP Config File for LWIP
+2024-06-11 03:04:40,457 [INFO] ApiDbMcu:508 - Load IP Config File for MBEDTLS
+2024-06-11 03:04:40,468 [INFO] ApiDbMcu:508 - Load IP Config File for USB_DEVICE
+2024-06-11 03:04:40,476 [INFO] ApiDbMcu:508 - Load IP Config File for USB_HOST
+2024-06-11 03:04:40,949 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2024-06-11 03:04:42,350 [INFO] ProjectBuilder:5002 - Time for Generating toolchain IDE Files: 2010mS.
+2024-06-11 03:04:42,351 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 1mS.
+2024-06-11 03:04:42,356 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 0mS.
+2024-06-11 04:33:18,657 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,450x156,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-06-11 04:43:24,204 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-06-11 04:43:50,828 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-06-11 04:44:01,227 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-06-11 04:44:01,666 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 710105328 Bytes (1073741824)
+2024-06-11 04:44:01,721 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 734202480 Bytes (1073741824)
+2024-06-11 04:44:02,225 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 781420456 Bytes (1073741824)
+2024-06-11 04:44:02,396 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-06-11 04:44:02,396 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-06-11 04:44:02,396 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-06-11 04:44:02,396 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-06-11 04:44:02,396 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DMA
+2024-06-11 04:44:02,397 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-06-11 04:44:02,398 [INFO] CodeGenerator:807 - code generatio: config db path: I:\software\STM32CubeIDE_1.15.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.11.1.202404110753\\db\
+2024-06-11 04:44:02,455 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\F407USART\MXTmpFiles\license.tmp_save
+2024-06-11 04:44:02,537 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\F407USART\MXTmpFiles\license.tmp
+2024-06-11 04:44:02,556 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\F407USART\MXTmpFiles\gpio.tmp_save
+2024-06-11 04:44:02,631 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\F407USART\MXTmpFiles\gpio.tmp
+2024-06-11 04:44:02,713 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\F407USART\MXTmpFiles\dma.tmp_save
+2024-06-11 04:44:02,774 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\F407USART\MXTmpFiles\dma.tmp
+2024-06-11 04:44:02,785 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\F407USART\MXTmpFiles\dma_GV.tmp_save
+2024-06-11 04:44:02,839 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\F407USART\MXTmpFiles\dma_GV.tmp
+2024-06-11 04:44:02,862 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\F407USART\Core\Src\stm32f4xx_it.c_save
+2024-06-11 04:44:03,008 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\F407USART\Core\Src\stm32f4xx_it.c
+2024-06-11 04:44:03,023 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\F407USART\Core\Inc\stm32f4xx_it.h_save
+2024-06-11 04:44:03,085 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\F407USART\Core\Inc\stm32f4xx_it.h
+2024-06-11 04:44:03,108 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\F407USART\Core\Src\stm32f4xx_hal_msp.c_save
+2024-06-11 04:44:03,210 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\F407USART\Core\Src\stm32f4xx_hal_msp.c
+2024-06-11 04:44:03,218 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\F407USART\MXTmpFiles\system.tmp_save
+2024-06-11 04:44:03,273 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\F407USART\MXTmpFiles\system.tmp
+2024-06-11 04:44:03,291 [INFO] CodeEngine:311 - oldGeneratedFile, I:\document\Stm32_Cube\F407USART\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-06-11 04:44:03,358 [INFO] CodeEngine:335 - Generated code: I:\document\Stm32_Cube\F407USART\Core\Inc\stm32f4xx_hal_conf.h
+2024-06-11 04:44:03,394 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\F407USART\Core\Inc\main.h_save
+2024-06-11 04:44:03,464 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\F407USART\Core\Inc\main.h
+2024-06-11 04:44:03,478 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\F407USART\Core\Src\main.c_save
+2024-06-11 04:44:03,578 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\F407USART\Core\Src\main.c
+2024-06-11 04:44:04,073 [INFO] ProjectBuilder:3163 - Time for Copy HAL[1] : 366mS.
+2024-06-11 04:44:04,078 [INFO] ProjectBuilder:4736 - Project Generator version: 4.3.0-B58
+2024-06-11 04:44:04,131 [INFO] ConfigFileManager:1503 - The Die is : DIE413
+2024-06-11 04:44:04,830 [INFO] ProjectBuilder:5002 - Time for Generating toolchain IDE Files: 752mS.
+2024-06-11 04:44:04,838 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 8mS.
+2024-06-11 04:44:04,850 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 0mS.
+2024-06-11 04:44:06,794 [ERROR] ConfigurationRetriever:142 - IOException on connection: Read timed out
+2024-06-11 05:03:42,265 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 

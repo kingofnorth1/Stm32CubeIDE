@@ -1,0 +1,64 @@
+/*
+ * BMP280.h
+ *
+ *  Created on: Jun 17, 2024
+ *      Author: bzah
+ */
+
+#ifndef INC_BMP280_H_
+#define INC_BMP280_H_
+
+#include "i2c.h"
+#include "string.h"
+
+
+#define BMP280_ADDRESS 0x76
+#define temp_xlsb      0xFC
+#define temp_lsb       0xFB
+#define temp_msb       0xFA
+#define press_xlsb     0xF9
+#define press_lsb      0xF8
+#define press_msb      0xF7
+#define config         0xF5
+#define ctrl_means     0xF4
+#define State          0xF3
+#define Reset          0xE0
+#define Id             0xD0
+
+#define T1_LSM 0x88,
+#define	T2_LSM 0x8A,
+#define	T3_LSM 0x8C,
+#define	P1_LSM 0x8E,
+#define	P2_LSM 0x90,
+#define	P3_LSM 0x92,
+#define	P4_LSM 0x94,
+#define	P5_LSM 0x96,
+#define	P6_LSM 0x98,
+#define	P7_LSM 0x9A,
+#define	P8_LSM 0x9C,
+#define	P9_LSM 0x9E
+
+typedef struct
+{
+	/* T1~P9 为补偿系数 */
+	uint16_t T1;
+	int16_t	T2;
+	int16_t	T3;
+	uint16_t P1;
+	int16_t	P2;
+	int16_t	P3;
+	int16_t	P4;
+	int16_t	P5;
+	int16_t	P6;
+	int16_t	P7;
+	int16_t	P8;
+	int16_t	P9;
+} BMP280;
+
+uint8_t BMP280_ReadID(void);
+uint8_t BMP280_Read_Byte(uint8_t reg);
+void BMP280_Write_Byte(uint8_t reg, uint8_t value);
+void BMP280_Init();
+void BMP280_RESET();
+
+#endif /* INC_BMP280_H_ */

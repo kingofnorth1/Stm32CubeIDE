@@ -1,0 +1,15 @@
+2024-06-20 02:05:45,943 [INFO] TasksAndQueuesTab:757 - Dynamic
+2024-06-20 02:05:45,958 [WARN] TasksAndQueuesTab:763 - 128 128
+2024-06-20 02:05:45,958 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2024-06-20 02:05:45,958 [INFO] TasksAndQueuesTab:757 - Dynamic
+2024-06-20 02:05:45,958 [WARN] TasksAndQueuesTab:763 - 128 128
+2024-06-20 02:05:45,958 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2024-06-20 02:05:49,903 [INFO] TasksAndQueuesTab:757 - Dynamic
+2024-06-20 02:05:49,903 [WARN] TasksAndQueuesTab:763 - 128 128
+2024-06-20 02:05:49,903 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2024-06-20 02:05:49,903 [INFO] TasksAndQueuesTab:757 - Dynamic
+2024-06-20 02:05:49,903 [WARN] TasksAndQueuesTab:763 - 128 128
+2024-06-20 02:05:49,903 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2024-06-20 02:43:44,480 [INFO] WebApp:354 - JxBrowser engine has been closed 
+2024-06-20 02:43:44,480 [INFO] WebAppUi:453 - JxBrowser engine has been closed 
+2024-06-20 02:43:44,480 [INFO] WebAppUi:490 - Close the Jxbrowser engine manually

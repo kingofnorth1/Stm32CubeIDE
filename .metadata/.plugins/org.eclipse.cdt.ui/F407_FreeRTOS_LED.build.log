@@ -1,0 +1,29 @@
+00:27:15 **** Incremental Build of configuration Debug for project F407_FreeRTOS_LED ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/freertos.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/freertos.d" -MT"Core/Src/freertos.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/freertos.o"
+../Core/Src/freertos.c: In function 'StartDefaultTask':
+../Core/Src/freertos.c:149:11: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  149 |           printf("Test");
+      |           ^~~~~~
+../Core/Src/freertos.c:25:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   24 | #include "cmsis_os.h"
+  +++ |+#include <stdio.h>
+   25 | 
+../Core/Src/freertos.c:149:11: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  149 |           printf("Test");
+      |           ^~~~~~
+../Core/Src/freertos.c:149:11: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "F407_FreeRTOS_LED.elf" @"objects.list"   -mcpu=cortex-m4 -T"I:\document\Stm32_Cube\F407_FreeRTOS_LED\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F407_FreeRTOS_LED.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: F407_FreeRTOS_LED.elf
+ 
+arm-none-eabi-size  F407_FreeRTOS_LED.elf 
+arm-none-eabi-objdump -h -S F407_FreeRTOS_LED.elf  > "F407_FreeRTOS_LED.list"
+   text	   data	    bss	    dec	    hex	filename
+  16400	    108	  18964	  35472	   8a90	F407_FreeRTOS_LED.elf
+Finished building: default.size.stdout
+ 
+Finished building: F407_FreeRTOS_LED.list
+ 
+
+00:27:17 Build Finished. 0 errors, 2 warnings. (took 1s.280ms)
+
