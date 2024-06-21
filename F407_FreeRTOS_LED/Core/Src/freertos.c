@@ -146,7 +146,7 @@ void StartDefaultTask(void const * argument)
 	  osDelay(500);
 	  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_11, GPIO_PIN_RESET);
 	  osDelay(500);
-	  printf("Test");
+//	  printf("Test");
   }
   /* USER CODE END StartDefaultTask */
 }
@@ -179,7 +179,7 @@ void Tesk04(void const * argument)
 		osDelay(500);
 		HAL_GPIO_WritePin(GPIOB, GPIO_PIN_12, GPIO_PIN_RESET);
 		osDelay(500);
-		vTaskSuspend(defaultTaskHandle);
+//		vTaskSuspend(defaultTaskHandle);
 	}
 }
 /* USER CODE END Application */
