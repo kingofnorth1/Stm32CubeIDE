@@ -1,0 +1,14 @@
+/*
+ * MAX30102.H
+ *
+ *  Created on: Jun 25, 2024
+ *      Author: king
+ */
+
+#ifndef INC_MAX30102_H_
+#define INC_MAX30102_H_
+
+#include "i2c.h"
+#include "stdint.h"
+
+#endif /* INC_MAX30102_H_ */

@@ -1,0 +1,21 @@
+/*
+ * MAX30102.c
+ *
+ *  Created on: Jun 25, 2024
+ *      Author: king
+ */
+
+#include "MAX30102.h"
+
+#define ADDRESS 0xAE
+
+uint8_t Read_Byte(uint8_t reg)
+{
+	uint8_t data;
+}
+
+void MAX_Init(void)
+{
+
+	return 1;
+}

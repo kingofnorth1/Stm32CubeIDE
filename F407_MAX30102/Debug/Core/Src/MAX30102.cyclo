@@ -1,0 +1,4 @@
+../Core/Src/MAX30102.c:14:9:MAX_State	1
+../Core/Src/MAX30102.c:19:9:MAX_Read_Byte	1
+../Core/Src/MAX30102.c:26:6:MAX_Write_Byte	1
+../Core/Src/MAX30102.c:31:6:MAX_Init	1

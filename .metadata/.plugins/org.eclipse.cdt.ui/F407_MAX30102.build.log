@@ -1,0 +1,30 @@
+04:01:06 **** Incremental Build of configuration Debug for project F407_MAX30102 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:103:38: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  103 |           HAL_UART_Transmit(&huart1, message, strlen(message), HAL_MAX_DELAY);
+      |                                      ^~~~~~~
+      |                                      |
+      |                                      char *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+arm-none-eabi-gcc -o "F407_MAX30102.elf" @"objects.list"   -mcpu=cortex-m4 -T"I:\document\Stm32_Cube\F407_MAX30102\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F407_MAX30102.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: F407_MAX30102.elf
+ 
+arm-none-eabi-size  F407_MAX30102.elf 
+arm-none-eabi-objdump -h -S F407_MAX30102.elf  > "F407_MAX30102.list"
+   text	   data	    bss	    dec	    hex	filename
+  14484	     92	   2060	  16636	   40fc	F407_MAX30102.elf
+Finished building: default.size.stdout
+ 
+Finished building: F407_MAX30102.list
+ 
+
+04:01:07 Build Finished. 0 errors, 1 warnings. (took 1s.19ms)
+

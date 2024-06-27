@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;F407_MAX30102/Core/Inc/MAX30102.H&apos; to &apos;MAX30102.h&apos;" description="Rename resource &apos;MAX30102.H&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Inc/MAX30102.H" name="MAX30102.h" stamp="1719253728393" updateReferences="true"/>
+</session>

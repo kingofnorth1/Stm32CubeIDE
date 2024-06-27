@@ -1,75 +1,232 @@
-20:36:01 **** Incremental Build of configuration Debug for project F407_FreeRTOS_LED ****
+03:32:35 **** Incremental Build of configuration Debug for project F407_MAX30102 ****
 make -j12 all 
-arm-none-eabi-gcc "../Core/Src/freertos.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/freertos.d" -MT"Core/Src/freertos.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/freertos.o"
-arm-none-eabi-gcc -o "F407_FreeRTOS_LED.elf" @"objects.list"   -mcpu=cortex-m4 -T"I:\document\Stm32_Cube\F407_FreeRTOS_LED\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F407_FreeRTOS_LED.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: F407_FreeRTOS_LED.elf
+arm-none-eabi-gcc "../Core/Src/MAX30102.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/MAX30102.d" -MT"Core/Src/MAX30102.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/MAX30102.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:103:38: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  103 |           HAL_UART_Transmit(&huart1, message, sizeof(message), HAL_MAX_DELAY);
+      |                                      ^~~~~~~
+      |                                      |
+      |                                      char *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+arm-none-eabi-gcc -o "F407_MAX30102.elf" @"objects.list"   -mcpu=cortex-m4 -T"I:\document\Stm32_Cube\F407_MAX30102\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F407_MAX30102.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: F407_MAX30102.elf
  
-arm-none-eabi-size  F407_FreeRTOS_LED.elf 
-arm-none-eabi-objdump -h -S F407_FreeRTOS_LED.elf  > "F407_FreeRTOS_LED.list"
+arm-none-eabi-size  F407_MAX30102.elf 
+arm-none-eabi-objdump -h -S F407_MAX30102.elf  > "F407_MAX30102.list"
    text	   data	    bss	    dec	    hex	filename
-  12108	     96	  18944	  31148	   79ac	F407_FreeRTOS_LED.elf
+  14456	     92	   2060	  16608	   40e0	F407_MAX30102.elf
 Finished building: default.size.stdout
  
-Finished building: F407_FreeRTOS_LED.list
+Finished building: F407_MAX30102.list
  
-20:36:10 **** Incremental Build of configuration Debug for project F407_FreeRTOS_LED ****
+03:33:49 **** Incremental Build of configuration Debug for project F407_MAX30102 ****
 make -j12 all 
-arm-none-eabi-size  F407_FreeRTOS_LED.elf 
+arm-none-eabi-size  F407_MAX30102.elf 
    text	   data	    bss	    dec	    hex	filename
-  12108	     96	  18944	  31148	   79ac	F407_FreeRTOS_LED.elf
+  14456	     92	   2060	  16608	   40e0	F407_MAX30102.elf
 Finished building: default.size.stdout
  
-22:19:46 **** Incremental Build of configuration Debug for project F407_FreeRTOS_LED ****
+03:44:21 **** Incremental Build of configuration Debug for project F407_MAX30102 ****
 make -j12 all 
-arm-none-eabi-gcc "../Core/Src/freertos.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/freertos.d" -MT"Core/Src/freertos.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/freertos.o"
-arm-none-eabi-gcc -o "F407_FreeRTOS_LED.elf" @"objects.list"   -mcpu=cortex-m4 -T"I:\document\Stm32_Cube\F407_FreeRTOS_LED\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F407_FreeRTOS_LED.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: F407_FreeRTOS_LED.elf
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:103:38: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  103 |           HAL_UART_Transmit(&huart1, message, sizeof(message), HAL_MAX_DELAY);
+      |                                      ^~~~~~~
+      |                                      |
+      |                                      char *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+arm-none-eabi-gcc -o "F407_MAX30102.elf" @"objects.list"   -mcpu=cortex-m4 -T"I:\document\Stm32_Cube\F407_MAX30102\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F407_MAX30102.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: F407_MAX30102.elf
  
-arm-none-eabi-size  F407_FreeRTOS_LED.elf 
-arm-none-eabi-objdump -h -S F407_FreeRTOS_LED.elf  > "F407_FreeRTOS_LED.list"
+arm-none-eabi-size  F407_MAX30102.elf 
+arm-none-eabi-objdump -h -S F407_MAX30102.elf  > "F407_MAX30102.list"
    text	   data	    bss	    dec	    hex	filename
-  12412	     96	  18944	  31452	   7adc	F407_FreeRTOS_LED.elf
+  11804	     92	   2060	  13956	   3684	F407_MAX30102.elf
 Finished building: default.size.stdout
  
-Finished building: F407_FreeRTOS_LED.list
+Finished building: F407_MAX30102.list
  
-00:27:15 **** Incremental Build of configuration Debug for project F407_FreeRTOS_LED ****
+03:45:17 **** Incremental Build of configuration Debug for project F407_MAX30102 ****
 make -j12 all 
-arm-none-eabi-gcc "../Core/Src/freertos.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/freertos.d" -MT"Core/Src/freertos.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/freertos.o"
-../Core/Src/freertos.c: In function 'StartDefaultTask':
-../Core/Src/freertos.c:149:11: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
-  149 |           printf("Test");
-      |           ^~~~~~
-../Core/Src/freertos.c:25:1: note: include '<stdio.h>' or provide a declaration of 'printf'
-   24 | #include "cmsis_os.h"
-  +++ |+#include <stdio.h>
-   25 | 
-../Core/Src/freertos.c:149:11: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
-  149 |           printf("Test");
-      |           ^~~~~~
-../Core/Src/freertos.c:149:11: note: include '<stdio.h>' or provide a declaration of 'printf'
-arm-none-eabi-gcc -o "F407_FreeRTOS_LED.elf" @"objects.list"   -mcpu=cortex-m4 -T"I:\document\Stm32_Cube\F407_FreeRTOS_LED\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F407_FreeRTOS_LED.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: F407_FreeRTOS_LED.elf
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:103:38: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  103 |           HAL_UART_Transmit(&huart1, message, strlen(message), HAL_MAX_DELAY);
+      |                                      ^~~~~~~
+      |                                      |
+      |                                      char *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+arm-none-eabi-gcc -o "F407_MAX30102.elf" @"objects.list"   -mcpu=cortex-m4 -T"I:\document\Stm32_Cube\F407_MAX30102\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F407_MAX30102.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: F407_MAX30102.elf
  
-arm-none-eabi-size  F407_FreeRTOS_LED.elf 
-arm-none-eabi-objdump -h -S F407_FreeRTOS_LED.elf  > "F407_FreeRTOS_LED.list"
+arm-none-eabi-size  F407_MAX30102.elf 
+arm-none-eabi-objdump -h -S F407_MAX30102.elf  > "F407_MAX30102.list"
    text	   data	    bss	    dec	    hex	filename
-  16400	    108	  18964	  35472	   8a90	F407_FreeRTOS_LED.elf
+  11832	     92	   2060	  13984	   36a0	F407_MAX30102.elf
 Finished building: default.size.stdout
  
-Finished building: F407_FreeRTOS_LED.list
+Finished building: F407_MAX30102.list
  
-22:44:07 **** Build of configuration Debug for project F407_FreeRTOS_LED ****
+03:47:08 **** Incremental Build of configuration Debug for project F407_MAX30102 ****
 make -j12 all 
-arm-none-eabi-gcc "../Core/Src/freertos.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/freertos.d" -MT"Core/Src/freertos.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/freertos.o"
-arm-none-eabi-gcc -o "F407_FreeRTOS_LED.elf" @"objects.list"   -mcpu=cortex-m4 -T"I:\document\Stm32_Cube\F407_FreeRTOS_LED\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F407_FreeRTOS_LED.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: F407_FreeRTOS_LED.elf
+arm-none-eabi-gcc "../Core/Src/i2c.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/i2c.d" -MT"Core/Src/i2c.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/i2c.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:103:38: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  103 |           HAL_UART_Transmit(&huart1, message, strlen(message), HAL_MAX_DELAY);
+      |                                      ^~~~~~~
+      |                                      |
+      |                                      char *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+arm-none-eabi-gcc -o "F407_MAX30102.elf" @"objects.list"   -mcpu=cortex-m4 -T"I:\document\Stm32_Cube\F407_MAX30102\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F407_MAX30102.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: F407_MAX30102.elf
  
-arm-none-eabi-size  F407_FreeRTOS_LED.elf 
-arm-none-eabi-objdump -h -S F407_FreeRTOS_LED.elf  > "F407_FreeRTOS_LED.list"
+arm-none-eabi-size  F407_MAX30102.elf 
+arm-none-eabi-objdump -h -S F407_MAX30102.elf  > "F407_MAX30102.list"
    text	   data	    bss	    dec	    hex	filename
-  12108	     96	  18944	  31148	   79ac	F407_FreeRTOS_LED.elf
+  11832	     92	   2060	  13984	   36a0	F407_MAX30102.elf
 Finished building: default.size.stdout
  
-Finished building: F407_FreeRTOS_LED.list
+Finished building: F407_MAX30102.list
+ 
+03:53:27 **** Incremental Build of configuration Debug for project F407_MAX30102 ****
+make -j12 all 
+arm-none-eabi-size  F407_MAX30102.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11832	     92	   2060	  13984	   36a0	F407_MAX30102.elf
+Finished building: default.size.stdout
+ 
+03:54:06 **** Incremental Build of configuration Debug for project F407_MAX30102 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:103:38: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  103 |           HAL_UART_Transmit(&huart1, message, strlen(message), HAL_MAX_DELAY);
+      |                                      ^~~~~~~
+      |                                      |
+      |                                      char *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+arm-none-eabi-gcc -o "F407_MAX30102.elf" @"objects.list"   -mcpu=cortex-m4 -T"I:\document\Stm32_Cube\F407_MAX30102\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F407_MAX30102.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: F407_MAX30102.elf
+ 
+arm-none-eabi-size  F407_MAX30102.elf 
+arm-none-eabi-objdump -h -S F407_MAX30102.elf  > "F407_MAX30102.list"
+   text	   data	    bss	    dec	    hex	filename
+  14484	     92	   2060	  16636	   40fc	F407_MAX30102.elf
+Finished building: default.size.stdout
+ 
+Finished building: F407_MAX30102.list
+ 
+04:00:16 **** Incremental Build of configuration Debug for project F407_MAX30102 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:103:38: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  103 |           HAL_UART_Transmit(&huart1, message, strlen(message), HAL_MAX_DELAY);
+      |                                      ^~~~~~~
+      |                                      |
+      |                                      char *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+arm-none-eabi-gcc -o "F407_MAX30102.elf" @"objects.list"   -mcpu=cortex-m4 -T"I:\document\Stm32_Cube\F407_MAX30102\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F407_MAX30102.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: F407_MAX30102.elf
+ 
+arm-none-eabi-size  F407_MAX30102.elf 
+arm-none-eabi-objdump -h -S F407_MAX30102.elf  > "F407_MAX30102.list"
+   text	   data	    bss	    dec	    hex	filename
+  14488	     92	   2060	  16640	   4100	F407_MAX30102.elf
+Finished building: default.size.stdout
+ 
+Finished building: F407_MAX30102.list
+ 
+04:00:44 **** Incremental Build of configuration Debug for project F407_MAX30102 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:103:38: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  103 |           HAL_UART_Transmit(&huart1, message, strlen(message), HAL_MAX_DELAY);
+      |                                      ^~~~~~~
+      |                                      |
+      |                                      char *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+arm-none-eabi-gcc -o "F407_MAX30102.elf" @"objects.list"   -mcpu=cortex-m4 -T"I:\document\Stm32_Cube\F407_MAX30102\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F407_MAX30102.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: F407_MAX30102.elf
+ 
+arm-none-eabi-size  F407_MAX30102.elf 
+arm-none-eabi-objdump -h -S F407_MAX30102.elf  > "F407_MAX30102.list"
+   text	   data	    bss	    dec	    hex	filename
+  14488	     92	   2060	  16640	   4100	F407_MAX30102.elf
+Finished building: default.size.stdout
+ 
+Finished building: F407_MAX30102.list
+ 
+04:01:06 **** Incremental Build of configuration Debug for project F407_MAX30102 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:103:38: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  103 |           HAL_UART_Transmit(&huart1, message, strlen(message), HAL_MAX_DELAY);
+      |                                      ^~~~~~~
+      |                                      |
+      |                                      char *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+arm-none-eabi-gcc -o "F407_MAX30102.elf" @"objects.list"   -mcpu=cortex-m4 -T"I:\document\Stm32_Cube\F407_MAX30102\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F407_MAX30102.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: F407_MAX30102.elf
+ 
+arm-none-eabi-size  F407_MAX30102.elf 
+arm-none-eabi-objdump -h -S F407_MAX30102.elf  > "F407_MAX30102.list"
+   text	   data	    bss	    dec	    hex	filename
+  14484	     92	   2060	  16636	   40fc	F407_MAX30102.elf
+Finished building: default.size.stdout
+ 
+Finished building: F407_MAX30102.list
  

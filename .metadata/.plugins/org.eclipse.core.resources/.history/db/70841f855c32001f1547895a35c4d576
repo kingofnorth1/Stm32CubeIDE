@@ -1,0 +1,16 @@
+/*
+ * MAX30102.c
+ *
+ *  Created on: Jun 25, 2024
+ *      Author: king
+ */
+
+#include "MAX30102.h"
+
+#define ADDRESS 0xAE
+
+void MAX_Init(void)
+{
+
+	return 1;
+}
