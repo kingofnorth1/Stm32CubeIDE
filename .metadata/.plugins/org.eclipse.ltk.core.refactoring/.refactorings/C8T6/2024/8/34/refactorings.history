@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;C8T6/Core/Inc/lcd_Font&apos; to &apos;lcd_Font.h&apos;" description="Rename resource &apos;lcd_Font&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Inc/lcd_Font" name="lcd_Font.h" stamp="1723955507084" updateReferences="true"/>
-</session>

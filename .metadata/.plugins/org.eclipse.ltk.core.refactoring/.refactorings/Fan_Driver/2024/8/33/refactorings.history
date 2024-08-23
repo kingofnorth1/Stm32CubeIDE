@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;C8T6/Core/Src/Lcd_Init.c&apos; to &apos;lcd_Init.c&apos;" description="Rename resource &apos;Lcd_Init.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/Lcd_Init.c" name="lcd_Init.c" stamp="1723918308253" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;C8T6/Core/Inc/Lcd_Init.h&apos; to &apos;lcd_Init.h&apos;" description="Rename resource &apos;Lcd_Init.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Inc/Lcd_Init.h" name="lcd_Init.h" stamp="1723918318532" updateReferences="true"/>
+</session>
