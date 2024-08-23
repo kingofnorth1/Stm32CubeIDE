@@ -1,0 +1,474 @@
+2024-08-18 01:01:37,515 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 734702464 Bytes (1073741824)
+2024-08-18 01:01:37,596 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 655443784 Bytes (1073741824)
+2024-08-18 01:01:38,181 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 631993480 Bytes (1073741824)
+2024-08-18 01:01:38,338 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-08-18 01:01:38,338 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F1
+2024-08-18 01:01:38,338 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-08-18 01:01:38,338 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-08-18 01:01:38,338 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-08-18 01:01:38,338 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2024-08-18 01:01:38,340 [INFO] CodeGenerator:807 - code generatio: config db path: I:\software\STM32CubeIDE_1.15.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.11.1.202404110753\\db\
+2024-08-18 01:01:38,341 [WARN] IP:2120 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-08-18 01:01:38,341 [WARN] IP:2120 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-08-18 01:01:38,422 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\MXTmpFiles\license.tmp_save
+2024-08-18 01:01:38,495 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\MXTmpFiles\license.tmp
+2024-08-18 01:01:38,530 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\gpio.c_save
+2024-08-18 01:01:38,595 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\gpio.c
+2024-08-18 01:01:38,611 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\gpio.h_save
+2024-08-18 01:01:38,669 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\gpio.h
+2024-08-18 01:01:38,750 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\i2c.c_save
+2024-08-18 01:01:38,833 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\i2c.c
+2024-08-18 01:01:38,850 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\i2c.h_save
+2024-08-18 01:01:38,919 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\i2c.h
+2024-08-18 01:01:38,938 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\tim.c_save
+2024-08-18 01:01:39,011 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\tim.c
+2024-08-18 01:01:39,018 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\tim.h_save
+2024-08-18 01:01:39,078 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\tim.h
+2024-08-18 01:01:39,099 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\stm32f1xx_it.c_save
+2024-08-18 01:01:39,207 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\stm32f1xx_it.c
+2024-08-18 01:01:39,222 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\stm32f1xx_it.h_save
+2024-08-18 01:01:39,278 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\stm32f1xx_it.h
+2024-08-18 01:01:39,301 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\stm32f1xx_hal_msp.c_save
+2024-08-18 01:01:39,374 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\stm32f1xx_hal_msp.c
+2024-08-18 01:01:39,384 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\MXTmpFiles\system.tmp_save
+2024-08-18 01:01:39,431 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\MXTmpFiles\system.tmp
+2024-08-18 01:01:39,451 [INFO] CodeEngine:311 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\stm32f1xx_hal_conf.h_save
+2024-08-18 01:01:39,521 [INFO] CodeEngine:335 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\stm32f1xx_hal_conf.h
+2024-08-18 01:01:39,559 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\main.h_save
+2024-08-18 01:01:39,631 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\main.h
+2024-08-18 01:01:39,648 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\main.c_save
+2024-08-18 01:01:39,728 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\main.c
+2024-08-18 01:01:40,129 [INFO] ProjectBuilder:3163 - Time for Copy HAL[1] : 268mS.
+2024-08-18 01:01:40,134 [INFO] ProjectBuilder:4736 - Project Generator version: 4.3.0-B58
+2024-08-18 01:01:40,191 [INFO] ConfigFileManager:1503 - The Die is : DIE410
+2024-08-18 01:01:41,497 [INFO] ProjectBuilder:5002 - Time for Generating toolchain IDE Files: 1363mS.
+2024-08-18 01:01:41,498 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 1mS.
+2024-08-18 01:01:41,503 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 0mS.
+2024-08-18 01:04:15,757 [WARN] IP:2120 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-08-18 01:04:15,757 [WARN] IP:2120 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-08-18 01:04:15,757 [WARN] IP:2120 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-08-18 01:04:15,757 [WARN] IP:2120 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-08-18 01:04:15,763 [WARN] IP:2120 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-08-18 01:04:15,763 [WARN] IP:2120 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-08-18 01:04:15,770 [WARN] IP:2120 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-08-18 01:04:15,770 [WARN] IP:2120 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-08-18 01:04:38,054 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 755768472 Bytes (1073741824)
+2024-08-18 01:04:38,111 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 637029280 Bytes (1073741824)
+2024-08-18 01:04:38,679 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 694018784 Bytes (1073741824)
+2024-08-18 01:04:38,835 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-08-18 01:04:38,835 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F1
+2024-08-18 01:04:38,835 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-08-18 01:04:38,835 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-08-18 01:04:38,835 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-08-18 01:04:38,835 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2024-08-18 01:04:38,836 [INFO] CodeGenerator:807 - code generatio: config db path: I:\software\STM32CubeIDE_1.15.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.11.1.202404110753\\db\
+2024-08-18 01:04:38,837 [WARN] IP:2120 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-08-18 01:04:38,837 [WARN] IP:2120 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-08-18 01:04:38,883 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\MXTmpFiles\license.tmp_save
+2024-08-18 01:04:38,938 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\MXTmpFiles\license.tmp
+2024-08-18 01:04:38,958 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\gpio.c_save
+2024-08-18 01:04:39,020 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\gpio.c
+2024-08-18 01:04:39,032 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\gpio.h_save
+2024-08-18 01:04:39,086 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\gpio.h
+2024-08-18 01:04:39,129 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\i2c.c_save
+2024-08-18 01:04:39,194 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\i2c.c
+2024-08-18 01:04:39,201 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\i2c.h_save
+2024-08-18 01:04:39,252 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\i2c.h
+2024-08-18 01:04:39,270 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\tim.c_save
+2024-08-18 01:04:39,337 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\tim.c
+2024-08-18 01:04:39,344 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\tim.h_save
+2024-08-18 01:04:39,396 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\tim.h
+2024-08-18 01:04:39,413 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\stm32f1xx_it.c_save
+2024-08-18 01:04:39,469 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\stm32f1xx_it.c
+2024-08-18 01:04:39,476 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\stm32f1xx_it.h_save
+2024-08-18 01:04:39,523 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\stm32f1xx_it.h
+2024-08-18 01:04:39,540 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\stm32f1xx_hal_msp.c_save
+2024-08-18 01:04:39,600 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\stm32f1xx_hal_msp.c
+2024-08-18 01:04:39,605 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\MXTmpFiles\system.tmp_save
+2024-08-18 01:04:39,646 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\MXTmpFiles\system.tmp
+2024-08-18 01:04:39,662 [INFO] CodeEngine:311 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\stm32f1xx_hal_conf.h_save
+2024-08-18 01:04:39,721 [INFO] CodeEngine:335 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\stm32f1xx_hal_conf.h
+2024-08-18 01:04:39,749 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\main.h_save
+2024-08-18 01:04:39,814 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\main.h
+2024-08-18 01:04:39,827 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\main.c_save
+2024-08-18 01:04:39,891 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\main.c
+2024-08-18 01:04:40,211 [INFO] ProjectBuilder:3163 - Time for Copy HAL[1] : 211mS.
+2024-08-18 01:04:40,216 [INFO] ProjectBuilder:4736 - Project Generator version: 4.3.0-B58
+2024-08-18 01:04:40,265 [INFO] ConfigFileManager:1503 - The Die is : DIE410
+2024-08-18 01:04:40,909 [INFO] ProjectBuilder:5002 - Time for Generating toolchain IDE Files: 693mS.
+2024-08-18 01:04:40,910 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 1mS.
+2024-08-18 01:04:40,915 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 0mS.
+2024-08-18 01:04:49,023 [INFO] Gpio:277 - dependency for GPIO [I2C1, RCC, SYS, TIM2]
+2024-08-18 01:05:34,187 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 834115152 Bytes (1073741824)
+2024-08-18 01:05:34,247 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 848525736 Bytes (1073741824)
+2024-08-18 01:05:34,769 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 899653200 Bytes (1073741824)
+2024-08-18 01:05:34,919 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-08-18 01:05:34,919 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F1
+2024-08-18 01:05:34,919 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-08-18 01:05:34,919 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-08-18 01:05:34,919 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-08-18 01:05:34,919 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2024-08-18 01:05:34,921 [INFO] CodeGenerator:807 - code generatio: config db path: I:\software\STM32CubeIDE_1.15.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.11.1.202404110753\\db\
+2024-08-18 01:05:34,921 [WARN] IP:2120 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-08-18 01:05:34,921 [WARN] IP:2120 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-08-18 01:05:34,963 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\MXTmpFiles\license.tmp_save
+2024-08-18 01:05:35,015 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\MXTmpFiles\license.tmp
+2024-08-18 01:05:35,036 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\gpio.c_save
+2024-08-18 01:05:35,104 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\gpio.c
+2024-08-18 01:05:35,113 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\gpio.h_save
+2024-08-18 01:05:35,159 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\gpio.h
+2024-08-18 01:05:35,202 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\i2c.c_save
+2024-08-18 01:05:35,265 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\i2c.c
+2024-08-18 01:05:35,271 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\i2c.h_save
+2024-08-18 01:05:35,318 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\i2c.h
+2024-08-18 01:05:35,335 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\tim.c_save
+2024-08-18 01:05:35,399 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\tim.c
+2024-08-18 01:05:35,407 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\tim.h_save
+2024-08-18 01:05:35,452 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\tim.h
+2024-08-18 01:05:35,469 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\stm32f1xx_it.c_save
+2024-08-18 01:05:35,519 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\stm32f1xx_it.c
+2024-08-18 01:05:35,527 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\stm32f1xx_it.h_save
+2024-08-18 01:05:35,573 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\stm32f1xx_it.h
+2024-08-18 01:05:35,591 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\stm32f1xx_hal_msp.c_save
+2024-08-18 01:05:35,650 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\stm32f1xx_hal_msp.c
+2024-08-18 01:05:35,656 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\MXTmpFiles\system.tmp_save
+2024-08-18 01:05:35,696 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\MXTmpFiles\system.tmp
+2024-08-18 01:05:35,712 [INFO] CodeEngine:311 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\stm32f1xx_hal_conf.h_save
+2024-08-18 01:05:35,771 [INFO] CodeEngine:335 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\stm32f1xx_hal_conf.h
+2024-08-18 01:05:35,798 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\main.h_save
+2024-08-18 01:05:35,850 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\main.h
+2024-08-18 01:05:35,863 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\main.c_save
+2024-08-18 01:05:35,927 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\main.c
+2024-08-18 01:05:36,290 [INFO] ProjectBuilder:3163 - Time for Copy HAL[1] : 243mS.
+2024-08-18 01:05:36,296 [INFO] ProjectBuilder:4736 - Project Generator version: 4.3.0-B58
+2024-08-18 01:05:36,346 [INFO] ConfigFileManager:1503 - The Die is : DIE410
+2024-08-18 01:05:36,855 [INFO] ProjectBuilder:5002 - Time for Generating toolchain IDE Files: 559mS.
+2024-08-18 01:05:36,856 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 0mS.
+2024-08-18 01:05:36,862 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 0mS.
+2024-08-18 01:07:10,268 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 980784472 Bytes (1073741824)
+2024-08-18 01:07:10,333 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 712563344 Bytes (1073741824)
+2024-08-18 01:07:10,855 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 761386792 Bytes (1073741824)
+2024-08-18 01:07:11,018 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-08-18 01:07:11,018 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F1
+2024-08-18 01:07:11,018 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-08-18 01:07:11,018 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-08-18 01:07:11,018 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-08-18 01:07:11,018 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2024-08-18 01:07:11,020 [INFO] CodeGenerator:807 - code generatio: config db path: I:\software\STM32CubeIDE_1.15.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.11.1.202404110753\\db\
+2024-08-18 01:07:11,021 [WARN] IP:2120 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-08-18 01:07:11,021 [WARN] IP:2120 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-08-18 01:07:11,086 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\MXTmpFiles\license.tmp_save
+2024-08-18 01:07:11,147 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\MXTmpFiles\license.tmp
+2024-08-18 01:07:11,186 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\gpio.c_save
+2024-08-18 01:07:11,254 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\gpio.c
+2024-08-18 01:07:11,265 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\gpio.h_save
+2024-08-18 01:07:11,313 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\gpio.h
+2024-08-18 01:07:11,357 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\i2c.c_save
+2024-08-18 01:07:11,417 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\i2c.c
+2024-08-18 01:07:11,424 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\i2c.h_save
+2024-08-18 01:07:11,471 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\i2c.h
+2024-08-18 01:07:11,488 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\tim.c_save
+2024-08-18 01:07:11,553 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\tim.c
+2024-08-18 01:07:11,560 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\tim.h_save
+2024-08-18 01:07:11,607 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\tim.h
+2024-08-18 01:07:11,624 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\stm32f1xx_it.c_save
+2024-08-18 01:07:11,673 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\stm32f1xx_it.c
+2024-08-18 01:07:11,680 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\stm32f1xx_it.h_save
+2024-08-18 01:07:11,731 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\stm32f1xx_it.h
+2024-08-18 01:07:11,748 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\stm32f1xx_hal_msp.c_save
+2024-08-18 01:07:11,812 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\stm32f1xx_hal_msp.c
+2024-08-18 01:07:11,819 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\MXTmpFiles\system.tmp_save
+2024-08-18 01:07:11,859 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\MXTmpFiles\system.tmp
+2024-08-18 01:07:11,875 [INFO] CodeEngine:311 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\stm32f1xx_hal_conf.h_save
+2024-08-18 01:07:11,937 [INFO] CodeEngine:335 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\stm32f1xx_hal_conf.h
+2024-08-18 01:07:11,965 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\main.h_save
+2024-08-18 01:07:12,020 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\main.h
+2024-08-18 01:07:12,033 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\main.c_save
+2024-08-18 01:07:12,114 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\main.c
+2024-08-18 01:07:12,427 [INFO] ProjectBuilder:3163 - Time for Copy HAL[1] : 212mS.
+2024-08-18 01:07:12,432 [INFO] ProjectBuilder:4736 - Project Generator version: 4.3.0-B58
+2024-08-18 01:07:12,482 [INFO] ConfigFileManager:1503 - The Die is : DIE410
+2024-08-18 01:07:13,075 [INFO] ProjectBuilder:5002 - Time for Generating toolchain IDE Files: 643mS.
+2024-08-18 01:07:13,076 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 1mS.
+2024-08-18 01:07:13,082 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 0mS.
+2024-08-18 01:17:30,585 [INFO] Gpio:277 - dependency for GPIO [I2C1, RCC, SYS, TIM2]
+2024-08-18 01:17:30,629 [WARN] IP:2120 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-08-18 01:17:30,629 [WARN] IP:2120 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-08-18 01:17:30,629 [WARN] IP:2120 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-08-18 01:17:30,629 [WARN] IP:2120 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-08-18 01:17:30,636 [WARN] IP:2120 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-08-18 01:17:30,636 [WARN] IP:2120 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-08-18 01:17:30,643 [WARN] IP:2120 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-08-18 01:17:30,643 [WARN] IP:2120 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-08-18 01:17:30,652 [INFO] Gpio:277 - dependency for GPIO [I2C1, RCC, SYS, TIM2]
+2024-08-18 01:18:08,097 [INFO] Gpio:277 - dependency for GPIO [I2C1, RCC, SYS, TIM2]
+2024-08-18 01:18:08,134 [WARN] IP:2120 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-08-18 01:18:08,134 [WARN] IP:2120 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-08-18 01:18:08,134 [WARN] IP:2120 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-08-18 01:18:08,134 [WARN] IP:2120 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-08-18 01:18:08,140 [WARN] IP:2120 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-08-18 01:18:08,140 [WARN] IP:2120 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-08-18 01:18:08,146 [WARN] IP:2120 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-08-18 01:18:08,147 [WARN] IP:2120 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-08-18 01:18:08,155 [INFO] Gpio:277 - dependency for GPIO [I2C1, RCC, SYS, TIM2]
+2024-08-18 01:18:33,116 [INFO] Gpio:277 - dependency for GPIO [I2C1, RCC, SYS, TIM2]
+2024-08-18 01:18:33,155 [WARN] IP:2120 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-08-18 01:18:33,155 [WARN] IP:2120 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-08-18 01:18:33,155 [WARN] IP:2120 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-08-18 01:18:33,155 [WARN] IP:2120 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-08-18 01:18:33,161 [WARN] IP:2120 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-08-18 01:18:33,161 [WARN] IP:2120 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-08-18 01:18:33,167 [WARN] IP:2120 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-08-18 01:18:33,167 [WARN] IP:2120 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-08-18 01:18:33,173 [INFO] Gpio:277 - dependency for GPIO [I2C1, RCC, SYS, TIM2]
+2024-08-18 01:19:04,868 [INFO] Gpio:277 - dependency for GPIO [I2C1, RCC, SYS, TIM2]
+2024-08-18 01:19:04,906 [WARN] IP:2120 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-08-18 01:19:04,906 [WARN] IP:2120 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-08-18 01:19:04,906 [WARN] IP:2120 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-08-18 01:19:04,906 [WARN] IP:2120 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-08-18 01:19:04,912 [WARN] IP:2120 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-08-18 01:19:04,912 [WARN] IP:2120 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-08-18 01:19:04,919 [WARN] IP:2120 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-08-18 01:19:04,919 [WARN] IP:2120 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-08-18 01:19:04,925 [INFO] Gpio:277 - dependency for GPIO [I2C1, RCC, SYS, TIM2]
+2024-08-18 01:19:45,976 [INFO] Gpio:277 - dependency for GPIO [I2C1, RCC, SYS, TIM2]
+2024-08-18 01:19:46,012 [WARN] IP:2120 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-08-18 01:19:46,012 [WARN] IP:2120 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-08-18 01:19:46,012 [WARN] IP:2120 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-08-18 01:19:46,012 [WARN] IP:2120 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-08-18 01:19:46,019 [WARN] IP:2120 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-08-18 01:19:46,019 [WARN] IP:2120 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-08-18 01:19:46,025 [WARN] IP:2120 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-08-18 01:19:46,025 [WARN] IP:2120 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-08-18 01:19:46,031 [INFO] Gpio:277 - dependency for GPIO [I2C1, RCC, SYS, TIM2]
+2024-08-18 01:19:52,304 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 866273648 Bytes (1073741824)
+2024-08-18 01:19:52,363 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 880002872 Bytes (1073741824)
+2024-08-18 01:19:52,917 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 942846392 Bytes (1073741824)
+2024-08-18 01:19:53,075 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-08-18 01:19:53,075 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F1
+2024-08-18 01:19:53,075 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-08-18 01:19:53,075 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-08-18 01:19:53,076 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-08-18 01:19:53,076 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2024-08-18 01:19:53,077 [INFO] CodeGenerator:807 - code generatio: config db path: I:\software\STM32CubeIDE_1.15.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.11.1.202404110753\\db\
+2024-08-18 01:19:53,078 [WARN] IP:2120 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-08-18 01:19:53,078 [WARN] IP:2120 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-08-18 01:19:53,125 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\MXTmpFiles\license.tmp_save
+2024-08-18 01:19:53,177 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\MXTmpFiles\license.tmp
+2024-08-18 01:19:53,200 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\gpio.c_save
+2024-08-18 01:19:53,264 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\gpio.c
+2024-08-18 01:19:53,272 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\gpio.h_save
+2024-08-18 01:19:53,324 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\gpio.h
+2024-08-18 01:19:53,372 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\i2c.c_save
+2024-08-18 01:19:53,442 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\i2c.c
+2024-08-18 01:19:53,449 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\i2c.h_save
+2024-08-18 01:19:53,496 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\i2c.h
+2024-08-18 01:19:53,513 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\tim.c_save
+2024-08-18 01:19:53,591 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\tim.c
+2024-08-18 01:19:53,598 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\tim.h_save
+2024-08-18 01:19:53,649 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\tim.h
+2024-08-18 01:19:53,667 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\stm32f1xx_it.c_save
+2024-08-18 01:19:53,762 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\stm32f1xx_it.c
+2024-08-18 01:19:53,769 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\stm32f1xx_it.h_save
+2024-08-18 01:19:53,816 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\stm32f1xx_it.h
+2024-08-18 01:19:53,836 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\stm32f1xx_hal_msp.c_save
+2024-08-18 01:19:53,900 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\stm32f1xx_hal_msp.c
+2024-08-18 01:19:53,905 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\MXTmpFiles\system.tmp_save
+2024-08-18 01:19:53,947 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\MXTmpFiles\system.tmp
+2024-08-18 01:19:53,963 [INFO] CodeEngine:311 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\stm32f1xx_hal_conf.h_save
+2024-08-18 01:19:54,022 [INFO] CodeEngine:335 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\stm32f1xx_hal_conf.h
+2024-08-18 01:19:54,050 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\main.h_save
+2024-08-18 01:19:54,120 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\main.h
+2024-08-18 01:19:54,134 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\main.c_save
+2024-08-18 01:19:54,210 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\main.c
+2024-08-18 01:19:54,576 [INFO] ProjectBuilder:3163 - Time for Copy HAL[1] : 237mS.
+2024-08-18 01:19:54,581 [INFO] ProjectBuilder:4736 - Project Generator version: 4.3.0-B58
+2024-08-18 01:19:54,634 [INFO] ConfigFileManager:1503 - The Die is : DIE410
+2024-08-18 01:19:55,203 [INFO] ProjectBuilder:5002 - Time for Generating toolchain IDE Files: 622mS.
+2024-08-18 01:19:55,204 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 0mS.
+2024-08-18 01:19:55,209 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 0mS.
+2024-08-18 01:20:20,301 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 823089984 Bytes (1073741824)
+2024-08-18 01:20:20,360 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 835672896 Bytes (1073741824)
+2024-08-18 01:20:20,873 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 874599184 Bytes (1073741824)
+2024-08-18 01:20:21,024 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-08-18 01:20:21,024 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F1
+2024-08-18 01:20:21,024 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-08-18 01:20:21,024 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-08-18 01:20:21,024 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-08-18 01:20:21,024 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2024-08-18 01:20:21,026 [INFO] CodeGenerator:807 - code generatio: config db path: I:\software\STM32CubeIDE_1.15.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.11.1.202404110753\\db\
+2024-08-18 01:20:21,026 [WARN] IP:2120 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-08-18 01:20:21,026 [WARN] IP:2120 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-08-18 01:20:21,073 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\MXTmpFiles\license.tmp_save
+2024-08-18 01:20:21,125 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\MXTmpFiles\license.tmp
+2024-08-18 01:20:21,147 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\gpio.c_save
+2024-08-18 01:20:21,208 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\gpio.c
+2024-08-18 01:20:21,216 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\gpio.h_save
+2024-08-18 01:20:21,266 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\gpio.h
+2024-08-18 01:20:21,315 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\i2c.c_save
+2024-08-18 01:20:21,376 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\i2c.c
+2024-08-18 01:20:21,383 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\i2c.h_save
+2024-08-18 01:20:21,430 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\i2c.h
+2024-08-18 01:20:21,447 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\tim.c_save
+2024-08-18 01:20:21,514 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\tim.c
+2024-08-18 01:20:21,522 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\tim.h_save
+2024-08-18 01:20:21,568 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\tim.h
+2024-08-18 01:20:21,585 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\stm32f1xx_it.c_save
+2024-08-18 01:20:21,640 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\stm32f1xx_it.c
+2024-08-18 01:20:21,647 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\stm32f1xx_it.h_save
+2024-08-18 01:20:21,694 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\stm32f1xx_it.h
+2024-08-18 01:20:21,713 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\stm32f1xx_hal_msp.c_save
+2024-08-18 01:20:21,777 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\stm32f1xx_hal_msp.c
+2024-08-18 01:20:21,783 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\MXTmpFiles\system.tmp_save
+2024-08-18 01:20:21,828 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\MXTmpFiles\system.tmp
+2024-08-18 01:20:21,845 [INFO] CodeEngine:311 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\stm32f1xx_hal_conf.h_save
+2024-08-18 01:20:21,909 [INFO] CodeEngine:335 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\stm32f1xx_hal_conf.h
+2024-08-18 01:20:21,936 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\main.h_save
+2024-08-18 01:20:21,988 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\main.h
+2024-08-18 01:20:22,000 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\main.c_save
+2024-08-18 01:20:22,064 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\main.c
+2024-08-18 01:20:22,379 [INFO] ProjectBuilder:3163 - Time for Copy HAL[1] : 210mS.
+2024-08-18 01:20:22,384 [INFO] ProjectBuilder:4736 - Project Generator version: 4.3.0-B58
+2024-08-18 01:20:22,434 [INFO] ConfigFileManager:1503 - The Die is : DIE410
+2024-08-18 01:20:22,981 [INFO] ProjectBuilder:5002 - Time for Generating toolchain IDE Files: 597mS.
+2024-08-18 01:20:22,982 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 0mS.
+2024-08-18 01:20:22,988 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 0mS.
+2024-08-18 01:51:58,910 [INFO] Gpio:277 - dependency for GPIO [I2C1, RCC, SYS, TIM2]
+2024-08-18 02:31:50,420 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 848887192 Bytes (1073741824)
+2024-08-18 02:31:50,486 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 865484632 Bytes (1073741824)
+2024-08-18 02:31:51,024 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 923336088 Bytes (1073741824)
+2024-08-18 02:31:51,193 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-08-18 02:31:51,193 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F1
+2024-08-18 02:31:51,193 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-08-18 02:31:51,194 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-08-18 02:31:51,194 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-08-18 02:31:51,194 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2024-08-18 02:31:51,195 [INFO] CodeGenerator:807 - code generatio: config db path: I:\software\STM32CubeIDE_1.15.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.11.1.202404110753\\db\
+2024-08-18 02:31:51,196 [WARN] IP:2120 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-08-18 02:31:51,196 [WARN] IP:2120 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-08-18 02:31:51,244 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\MXTmpFiles\license.tmp_save
+2024-08-18 02:31:51,303 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\MXTmpFiles\license.tmp
+2024-08-18 02:31:51,328 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\gpio.c_save
+2024-08-18 02:31:51,393 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\gpio.c
+2024-08-18 02:31:51,406 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\gpio.h_save
+2024-08-18 02:31:51,457 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\gpio.h
+2024-08-18 02:31:51,506 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\i2c.c_save
+2024-08-18 02:31:51,582 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\i2c.c
+2024-08-18 02:31:51,593 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\i2c.h_save
+2024-08-18 02:31:51,648 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\i2c.h
+2024-08-18 02:31:51,665 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\tim.c_save
+2024-08-18 02:31:51,734 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\tim.c
+2024-08-18 02:31:51,741 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\tim.h_save
+2024-08-18 02:31:51,798 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\tim.h
+2024-08-18 02:31:51,816 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\stm32f1xx_it.c_save
+2024-08-18 02:31:51,919 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\stm32f1xx_it.c
+2024-08-18 02:31:51,931 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\stm32f1xx_it.h_save
+2024-08-18 02:31:51,989 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\stm32f1xx_it.h
+2024-08-18 02:31:52,008 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\stm32f1xx_hal_msp.c_save
+2024-08-18 02:31:52,082 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\stm32f1xx_hal_msp.c
+2024-08-18 02:31:52,088 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\MXTmpFiles\system.tmp_save
+2024-08-18 02:31:52,134 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\MXTmpFiles\system.tmp
+2024-08-18 02:31:52,150 [INFO] CodeEngine:311 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\stm32f1xx_hal_conf.h_save
+2024-08-18 02:31:52,210 [INFO] CodeEngine:335 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\stm32f1xx_hal_conf.h
+2024-08-18 02:31:52,237 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\main.h_save
+2024-08-18 02:31:52,300 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\main.h
+2024-08-18 02:31:52,313 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\main.c_save
+2024-08-18 02:31:52,386 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\main.c
+2024-08-18 02:31:52,757 [INFO] ProjectBuilder:3163 - Time for Copy HAL[1] : 238mS.
+2024-08-18 02:31:52,762 [INFO] ProjectBuilder:4736 - Project Generator version: 4.3.0-B58
+2024-08-18 02:31:52,813 [INFO] ConfigFileManager:1503 - The Die is : DIE410
+2024-08-18 02:31:53,410 [INFO] ProjectBuilder:5002 - Time for Generating toolchain IDE Files: 648mS.
+2024-08-18 02:31:53,411 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 1mS.
+2024-08-18 02:31:53,418 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 1mS.
+2024-08-18 02:41:02,833 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 691571184 Bytes (1073741824)
+2024-08-18 02:41:02,892 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 705809440 Bytes (1073741824)
+2024-08-18 02:41:03,399 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 656194344 Bytes (1073741824)
+2024-08-18 02:41:03,563 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-08-18 02:41:03,564 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F1
+2024-08-18 02:41:03,564 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-08-18 02:41:03,564 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-08-18 02:41:03,564 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-08-18 02:41:03,564 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2024-08-18 02:41:03,565 [INFO] CodeGenerator:807 - code generatio: config db path: I:\software\STM32CubeIDE_1.15.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.11.1.202404110753\\db\
+2024-08-18 02:41:03,566 [WARN] IP:2120 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-08-18 02:41:03,566 [WARN] IP:2120 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-08-18 02:41:03,613 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\MXTmpFiles\license.tmp_save
+2024-08-18 02:41:03,687 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\MXTmpFiles\license.tmp
+2024-08-18 02:41:03,715 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\gpio.c_save
+2024-08-18 02:41:03,786 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\gpio.c
+2024-08-18 02:41:03,796 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\gpio.h_save
+2024-08-18 02:41:03,842 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\gpio.h
+2024-08-18 02:41:03,891 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\i2c.c_save
+2024-08-18 02:41:03,959 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\i2c.c
+2024-08-18 02:41:03,966 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\i2c.h_save
+2024-08-18 02:41:04,012 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\i2c.h
+2024-08-18 02:41:04,030 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\tim.c_save
+2024-08-18 02:41:04,094 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\tim.c
+2024-08-18 02:41:04,101 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\tim.h_save
+2024-08-18 02:41:04,152 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\tim.h
+2024-08-18 02:41:04,169 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\stm32f1xx_it.c_save
+2024-08-18 02:41:04,265 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\stm32f1xx_it.c
+2024-08-18 02:41:04,272 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\stm32f1xx_it.h_save
+2024-08-18 02:41:04,318 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\stm32f1xx_it.h
+2024-08-18 02:41:04,338 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\stm32f1xx_hal_msp.c_save
+2024-08-18 02:41:04,400 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\stm32f1xx_hal_msp.c
+2024-08-18 02:41:04,405 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\MXTmpFiles\system.tmp_save
+2024-08-18 02:41:04,447 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\MXTmpFiles\system.tmp
+2024-08-18 02:41:04,463 [INFO] CodeEngine:311 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\stm32f1xx_hal_conf.h_save
+2024-08-18 02:41:04,526 [INFO] CodeEngine:335 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\stm32f1xx_hal_conf.h
+2024-08-18 02:41:04,554 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\main.h_save
+2024-08-18 02:41:04,612 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\main.h
+2024-08-18 02:41:04,624 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\main.c_save
+2024-08-18 02:41:04,699 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\main.c
+2024-08-18 02:41:05,016 [INFO] ProjectBuilder:3163 - Time for Copy HAL[1] : 213mS.
+2024-08-18 02:41:05,022 [INFO] ProjectBuilder:4736 - Project Generator version: 4.3.0-B58
+2024-08-18 02:41:05,072 [INFO] ConfigFileManager:1503 - The Die is : DIE410
+2024-08-18 02:41:05,612 [INFO] ProjectBuilder:5002 - Time for Generating toolchain IDE Files: 590mS.
+2024-08-18 02:41:05,613 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 0mS.
+2024-08-18 02:41:05,618 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 0mS.
+2024-08-18 02:45:23,380 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 902189688 Bytes (1073741824)
+2024-08-18 02:45:23,444 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 919418080 Bytes (1073741824)
+2024-08-18 02:45:24,001 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 663217144 Bytes (1073741824)
+2024-08-18 02:45:24,168 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-08-18 02:45:24,168 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F1
+2024-08-18 02:45:24,168 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-08-18 02:45:24,168 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-08-18 02:45:24,168 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-08-18 02:45:24,168 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2024-08-18 02:45:24,169 [INFO] CodeGenerator:807 - code generatio: config db path: I:\software\STM32CubeIDE_1.15.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.11.1.202404110753\\db\
+2024-08-18 02:45:24,170 [WARN] IP:2120 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-08-18 02:45:24,170 [WARN] IP:2120 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-08-18 02:45:24,221 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\MXTmpFiles\license.tmp_save
+2024-08-18 02:45:24,296 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\MXTmpFiles\license.tmp
+2024-08-18 02:45:24,320 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\gpio.c_save
+2024-08-18 02:45:24,387 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\gpio.c
+2024-08-18 02:45:24,395 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\gpio.h_save
+2024-08-18 02:45:24,441 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\gpio.h
+2024-08-18 02:45:24,488 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\i2c.c_save
+2024-08-18 02:45:24,548 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\i2c.c
+2024-08-18 02:45:24,555 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\i2c.h_save
+2024-08-18 02:45:24,600 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\i2c.h
+2024-08-18 02:45:24,618 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\tim.c_save
+2024-08-18 02:45:24,683 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\tim.c
+2024-08-18 02:45:24,691 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\tim.h_save
+2024-08-18 02:45:24,737 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\tim.h
+2024-08-18 02:45:24,754 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\stm32f1xx_it.c_save
+2024-08-18 02:45:24,811 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\stm32f1xx_it.c
+2024-08-18 02:45:24,818 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\stm32f1xx_it.h_save
+2024-08-18 02:45:24,869 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\stm32f1xx_it.h
+2024-08-18 02:45:24,887 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\stm32f1xx_hal_msp.c_save
+2024-08-18 02:45:24,947 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\stm32f1xx_hal_msp.c
+2024-08-18 02:45:24,953 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\MXTmpFiles\system.tmp_save
+2024-08-18 02:45:24,994 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\MXTmpFiles\system.tmp
+2024-08-18 02:45:25,010 [INFO] CodeEngine:311 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\stm32f1xx_hal_conf.h_save
+2024-08-18 02:45:25,070 [INFO] CodeEngine:335 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\stm32f1xx_hal_conf.h
+2024-08-18 02:45:25,097 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Inc\main.h_save
+2024-08-18 02:45:25,153 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Inc\main.h
+2024-08-18 02:45:25,165 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\C8T6\Core\Src\main.c_save
+2024-08-18 02:45:25,238 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\C8T6\Core\Src\main.c
+2024-08-18 02:45:25,555 [INFO] ProjectBuilder:3163 - Time for Copy HAL[1] : 215mS.
+2024-08-18 02:45:25,560 [INFO] ProjectBuilder:4736 - Project Generator version: 4.3.0-B58
+2024-08-18 02:45:25,618 [INFO] ConfigFileManager:1503 - The Die is : DIE410
+2024-08-18 02:45:26,168 [INFO] ProjectBuilder:5002 - Time for Generating toolchain IDE Files: 608mS.
+2024-08-18 02:45:26,169 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 1mS.
+2024-08-18 02:45:26,174 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 0mS.

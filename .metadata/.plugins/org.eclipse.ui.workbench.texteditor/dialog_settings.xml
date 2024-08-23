@@ -1,31 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="osThreadCreate"/>
+		<item key="selection" value="0x00"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="osThreadCreate"/>
-			<item value="osKernelStart"/>
-			<item value="HAL_I2C"/>
-			<item value="0x3B"/>
-			<item value="#define __FPU_PRESENT 1"/>
-			<item value="#define __FPU_PRESENT 1 /*!&lt; FPU present */"/>
-			<item value="BMP280_Get_Pressure"/>
-			<item value="status_flag"/>
-			<item value="BMP280_STATUS_REG"/>
-			<item value="BMP280_FILTER_MODE_1"/>
-			<item value="HAL_TIM_IRQHandler"/>
-			<item value="htim"/>
-			<item value="oled_drawm"/>
-			<item value="oled_draw"/>
-			<item value="oled_Draw"/>
+			<item value="0xFF"/>
+			<item value="0x36"/>
+			<item value="show"/>
+			<item value="tfont32"/>
+			<item value="typFNT_GB32"/>
+			<item value="TFT_SEND_DATA"/>
+			<item value="TFT_SEND_CMD"/>
+			<item value="u32"/>
+			<item value="u16"/>
+			<item value="u8"/>
+			<item value="delay_ms"/>
+			<item value="                TFT_SEND_CMD(0XE1); //Set Gamma"/>
+			<item value="chines_words"/>
+			<item value="chines_word"/>
+			<item value="Delay_ms"/>
 		</list>
 		<list key="replacehistory">
+			<item value="0x00"/>
 			<item value=""/>
+			<item value="LCD_WR_DATA8"/>
+			<item value="LCD_WR_REG"/>
+			<item value="uint32_t"/>
+			<item value="uint16_t"/>
+			<item value="uint8_t"/>
+			<item value="HAL_Delay"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

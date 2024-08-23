@@ -1,0 +1,3 @@
+../Core/Src/Switch.c:12:6:Fan_Init	1
+../Core/Src/Switch.c:18:6:Fan_Fast	3
+../Core/Src/Switch.c:35:6:Fan_Slow	3

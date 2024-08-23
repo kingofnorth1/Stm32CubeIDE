@@ -1,0 +1,17 @@
+../Core/Src/SPI/lcd.c:13:6:LCD_Fill	3
+../Core/Src/SPI/lcd.c:32:6:LCD_DrawPoint	1
+../Core/Src/SPI/lcd.c:46:6:LCD_DrawLine	9
+../Core/Src/SPI/lcd.c:89:6:LCD_DrawRectangle	1
+../Core/Src/SPI/lcd.c:105:6:Draw_Circle	3
+../Core/Src/SPI/lcd.c:137:6:LCD_ShowChinese	6
+../Core/Src/SPI/lcd.c:161:6:LCD_ShowChinese12x12	11
+../Core/Src/SPI/lcd.c:219:6:LCD_ShowChinese16x16	11
+../Core/Src/SPI/lcd.c:277:6:LCD_ShowChinese24x24	11
+../Core/Src/SPI/lcd.c:334:6:LCD_ShowChinese32x32	11
+../Core/Src/SPI/lcd.c:392:6:LCD_ShowChar	12
+../Core/Src/SPI/lcd.c:447:6:LCD_ShowString	2
+../Core/Src/SPI/lcd.c:463:10:mypow	2
+../Core/Src/SPI/lcd.c:481:6:LCD_ShowIntNum	5
+../Core/Src/SPI/lcd.c:513:6:LCD_ShowFloatNum1	3
+../Core/Src/SPI/lcd.c:541:6:LCD_ShowPicture	3
+../Core/Src/SPI/lcd.c:564:6:LCD_display_char16_16	4

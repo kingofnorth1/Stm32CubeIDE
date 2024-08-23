@@ -1,0 +1,44 @@
+2024-07-20 00:58:00,166 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 583629424 Bytes (1073741824)
+2024-07-20 00:58:00,244 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 587548888 Bytes (1073741824)
+2024-07-20 00:58:01,178 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 583203088 Bytes (1073741824)
+2024-07-20 00:58:01,633 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SPI
+2024-07-20 00:58:01,633 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SPI
+2024-07-20 00:58:01,633 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-07-20 00:58:01,633 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-07-20 00:58:01,633 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-07-20 00:58:01,633 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-07-20 00:58:01,635 [INFO] CodeGenerator:807 - code generatio: config db path: I:\software\STM32CubeIDE_1.15.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.11.1.202404110753\\db\
+2024-07-20 00:58:01,763 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\F8T6\MXTmpFiles\license.tmp_save
+2024-07-20 00:58:02,015 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\F8T6\MXTmpFiles\license.tmp
+2024-07-20 00:58:02,115 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\F8T6\MXTmpFiles\gpio.tmp_save
+2024-07-20 00:58:02,205 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\F8T6\MXTmpFiles\gpio.tmp
+2024-07-20 00:58:02,303 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\F8T6\Core\Src\stm32f1xx_it.c_save
+2024-07-20 00:58:02,401 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\F8T6\Core\Src\stm32f1xx_it.c
+2024-07-20 00:58:02,421 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\F8T6\Core\Inc\stm32f1xx_it.h_save
+2024-07-20 00:58:02,492 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\F8T6\Core\Inc\stm32f1xx_it.h
+2024-07-20 00:58:02,522 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\F8T6\Core\Src\stm32f1xx_hal_msp.c_save
+2024-07-20 00:58:02,648 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\F8T6\Core\Src\stm32f1xx_hal_msp.c
+2024-07-20 00:58:02,661 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\F8T6\MXTmpFiles\system.tmp_save
+2024-07-20 00:58:02,718 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\F8T6\MXTmpFiles\system.tmp
+2024-07-20 00:58:02,743 [INFO] CodeEngine:311 - oldGeneratedFile, I:\document\Stm32_Cube\F8T6\Core\Inc\stm32f1xx_hal_conf.h_save
+2024-07-20 00:58:02,816 [INFO] CodeEngine:335 - Generated code: I:\document\Stm32_Cube\F8T6\Core\Inc\stm32f1xx_hal_conf.h
+2024-07-20 00:58:02,866 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\F8T6\Core\Inc\main.h_save
+2024-07-20 00:58:02,946 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\F8T6\Core\Inc\main.h
+2024-07-20 00:58:02,965 [INFO] CodeEngine:255 - oldGeneratedFile, I:\document\Stm32_Cube\F8T6\Core\Src\main.c_save
+2024-07-20 00:58:03,087 [INFO] CodeEngine:279 - Generated code: I:\document\Stm32_Cube\F8T6\Core\Src\main.c
+2024-07-20 00:58:03,195 [ERROR] ProjectBuilder:6823 - Problem during Copy of File LICENSE.txt
+2024-07-20 00:58:03,204 [ERROR] ProjectBuilder:6823 - Problem during Copy of File LICENSE.txt
+2024-07-20 00:58:03,217 [ERROR] ProjectBuilder:6823 - Problem during Copy of File LICENSE.txt
+2024-07-20 00:58:03,222 [ERROR] ProjectBuilder:6823 - Problem during Copy of File LICENSE.txt
+2024-07-20 00:58:03,226 [ERROR] ProjectBuilder:6823 - Problem during Copy of File LICENSE.txt
+2024-07-20 00:58:03,270 [ERROR] ProjectBuilder:6823 - Problem during Copy of File LICENSE.txt
+2024-07-20 00:58:03,279 [ERROR] ProjectBuilder:6823 - Problem during Copy of File LICENSE.txt
+2024-07-20 00:58:03,286 [ERROR] ProjectBuilder:6823 - Problem during Copy of File LICENSE.txt
+2024-07-20 00:58:03,289 [ERROR] ProjectBuilder:6823 - Problem during Copy of File LICENSE.txt
+2024-07-20 00:58:03,293 [ERROR] ProjectBuilder:6823 - Problem during Copy of File LICENSE.txt
+2024-07-20 00:58:03,367 [INFO] ProjectBuilder:3163 - Time for Copy HAL[1] : 185mS.
+2024-07-20 00:58:03,374 [INFO] ProjectBuilder:4736 - Project Generator version: 4.3.0-B58
+2024-07-20 00:58:03,433 [INFO] ConfigFileManager:1503 - The Die is : DIE410
+2024-07-20 00:58:03,448 [INFO] ApiDbMcu:508 - Load IP Config File for FATFS
+2024-07-20 00:58:03,458 [INFO] ApiDbMcu:508 - Load IP Config File for FREERTOS
+2024-07-20 00:58:03,469 [INFO] ApiDbMcu:508 - Load IP Config File for USB_DEVICE

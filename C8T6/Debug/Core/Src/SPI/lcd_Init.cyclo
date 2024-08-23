@@ -1,0 +1,9 @@
+../Core/Src/SPI/lcd_Init.c:11:6:LCD_Writ_Bus	3
+../Core/Src/SPI/lcd_Init.c:29:6:LCD_WR_DATA8	1
+../Core/Src/SPI/lcd_Init.c:38:6:LCD_WR_DATA	1
+../Core/Src/SPI/lcd_Init.c:48:6:LCD_WR_REG	1
+../Core/Src/SPI/lcd_Init.c:59:6:LCD_Address_Set	1
+../Core/Src/SPI/lcd_Init.c:103:6:LCD_clear	3
+../Core/Src/SPI/lcd_Init.c:133:6:LCD_full	3
+../Core/Src/SPI/lcd_Init.c:160:6:LCD_Init	1
+../Core/Src/SPI/lcd_Init.c:263:6:LCD_Clear_Address	3
