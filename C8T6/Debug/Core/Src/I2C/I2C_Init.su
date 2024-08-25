@@ -1,6 +1,6 @@
-../Core/Src/I2C/I2C_Init.c:9:6:I2C_Start	4	static
-../Core/Src/I2C/I2C_Init.c:14:6:I2C_End	4	static
-../Core/Src/I2C/I2C_Init.c:19:6:I2C_SendByte	16	static
-../Core/Src/I2C/I2C_Init.c:24:9:I2C_ReceiveByte	4	static
-../Core/Src/I2C/I2C_Init.c:29:6:I2C_SendAck	4	static
-../Core/Src/I2C/I2C_Init.c:34:9:I2C_ReceiveAck	4	static
+../Core/Src/I2C/I2C_Init.c:9:6:I2C_Start	8	static
+../Core/Src/I2C/I2C_Init.c:17:6:I2C_End	8	static
+../Core/Src/I2C/I2C_Init.c:24:6:I2C_SendByte	24	static
+../Core/Src/I2C/I2C_Init.c:35:9:I2C_ReceiveByte	16	static
+../Core/Src/I2C/I2C_Init.c:48:6:I2C_SendAck	16	static
+../Core/Src/I2C/I2C_Init.c:55:9:I2C_ReceiveAck	16	static

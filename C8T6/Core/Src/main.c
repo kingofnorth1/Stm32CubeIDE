@@ -70,6 +70,7 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 		Fan_Slow(&htim2, SW2_Pin);
 	}
 }
+
 /* USER CODE END 0 */
 
 /**
@@ -116,9 +117,6 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-//	  LCD_display_char16_16(chain_zhen, 10, 10, RED);
-//	  LCD_ShowChar(40,70,'A',RED,0,32,0);
-//	  LCD_Clear_Address(10,80,10,80);
 	  LCD_ShowPicture(gImage_Fan1, 25, 2);
 	  HAL_Delay(1);
 	  LCD_ShowPicture(gImage_Fan2, 25, 2);

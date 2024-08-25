@@ -37,34 +37,34 @@ $(wildcard ../makefile.init) \
 $(wildcard ../makefile.targets) \
 
 
-BUILD_ARTIFACT_NAME := C8T6
+BUILD_ARTIFACT_NAME := Fan_Driver
 BUILD_ARTIFACT_EXTENSION := elf
 BUILD_ARTIFACT_PREFIX :=
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXECUTABLES += \
-C8T6.elf \
+Fan_Driver.elf \
 
 MAP_FILES += \
-C8T6.map \
+Fan_Driver.map \
 
 SIZE_OUTPUT += \
 default.size.stdout \
 
 OBJDUMP_LIST += \
-C8T6.list \
+Fan_Driver.list \
 
 
 # All Target
 all: main-build
 
 # Main-build Target
-main-build: C8T6.elf secondary-outputs
+main-build: Fan_Driver.elf secondary-outputs
 
 # Tool invocations
-C8T6.elf C8T6.map: $(OBJS) $(USER_OBJS) I:\document\Stm32_Cube\C8T6\STM32F103C8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "C8T6.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"I:\document\Stm32_Cube\C8T6\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="C8T6.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Fan_Driver.elf Fan_Driver.map: $(OBJS) $(USER_OBJS) I:\document\Stm32_Cube\C8T6\STM32F103C8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "Fan_Driver.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"I:\document\Stm32_Cube\C8T6\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Fan_Driver.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -73,14 +73,14 @@ default.size.stdout: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	@echo 'Finished building: $@'
 	@echo ' '
 
-C8T6.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "C8T6.list"
+Fan_Driver.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "Fan_Driver.list"
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) C8T6.elf C8T6.list C8T6.map default.size.stdout
+	-$(RM) Fan_Driver.elf Fan_Driver.list Fan_Driver.map default.size.stdout
 	-@echo ' '
 
 secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST)

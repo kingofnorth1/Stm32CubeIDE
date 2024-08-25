@@ -1,0 +1,73 @@
+/*
+ * I2C_Init.c
+ *
+ *  Created on: Aug 23, 2024
+ *      Author: king
+ */
+#include "I2C/I2C_Init.h"
+
+void I2C_Start(void)
+{
+	SDA_Clr();
+	SCL_Clr();
+	SDA_Set();
+	SCL_Set();
+}
+
+void I2C_End(void)
+{
+	SDA_Set();
+	SCL_Clr();
+	SDA_Clr();
+}
+
+void I2C_SendByte(uint8_t Byte)
+{
+	uint8_t i;
+	for (i=0;i<8;i++)
+	{
+		if (Byte&0x80)
+		{
+			SDA_Clr();
+			SCL_Clr();
+		}
+		else
+		{
+			SCL_Set();
+		}
+
+		Byte<<=1;
+	}
+}
+
+uint8_t I2C_ReceiveByte(void)
+{
+	uint8_t i;
+	uint8_t data=0;
+	SDA_Clr();
+	for(i=0;i<8;i++)
+	{
+		SCL_Clr();
+		data = data^(SDA_Get()<<i);
+		SCL_Set();
+	}
+	return data;
+}
+
+void I2C_SendAck(void)
+{
+	SDA_Clr();
+	SCL_Clr();
+	SCL_Set();
+}
+
+uint8_t I2C_ReceiveAck(void)
+{
+	uint8_t data;
+	SDA_Clr();
+	SCL_Clr();
+	data = SDA_Get();
+	SCL_Clr();
+	return data;
+}
+

@@ -1,7 +1,7 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:F407ExternaIInput.elf,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:F407TIM.elf,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:F407_MAX30102.elf,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:C8T6 Debug
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:F407ExternaIInput.elf,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:F407TIM.elf,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:F407_MAX30102.elf,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:C8T6 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:F407iic Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Fan_Driver Debug
 eclipse.preferences.version=1
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:BLE\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:C8T6\ Debug/activeLaunchMode=run
