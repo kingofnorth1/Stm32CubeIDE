@@ -1,0 +1,20 @@
+/*
+ * INA219.c
+ *
+ *  Created on: Aug 26, 2024
+ *      Author: king
+ */
+#include "INA219.h"
+
+uint8_t W_Address = 0x81;
+uint8_t R_Address = 0x80;
+
+void INA219()
+{
+	I2C_Start();
+	I2C_SendByte(W_Address);
+	I2C_ReceiveByte();
+	I2C_SendByte(R_Address);
+	I2C_ReceiveByte();
+}
+
