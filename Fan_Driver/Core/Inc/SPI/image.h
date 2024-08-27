@@ -15,6 +15,6 @@
 //extern const unsigned char gImage_love[14000];
 extern const unsigned char gImage_Fan1[12808];
 extern const unsigned char gImage_Fan2[12800];
-extern const unsigned char gImage_Fan3[12808];
+//extern const unsigned char gImage_Fan3[12808];
 
 #endif

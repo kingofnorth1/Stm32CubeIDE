@@ -1,0 +1,12 @@
+../Core/Src/I2C/INA219.c:47:10:INA219_ReadDataForRegister_16Bits	40	static
+../Core/Src/I2C/INA219.c:62:6:INA219_WriteDataToRegister_16Bits	40	static
+../Core/Src/I2C/INA219.c:77:10:INA219_ReadBusVoltage	24	static
+../Core/Src/I2C/INA219.c:90:10:INA219_ReadCurrentRaw	24	static
+../Core/Src/I2C/INA219.c:102:10:INA219_ReadCurrent_mA	24	static
+../Core/Src/I2C/INA219.c:114:10:INA219_ReadShuntVoltage_mV	24	static
+../Core/Src/I2C/INA219.c:136:6:INA219_Reset	16	static
+../Core/Src/I2C/INA219.c:147:6:INA219_SetCalibration	16	static
+../Core/Src/I2C/INA219.c:157:10:INA219_GetConfigInfo	24	static
+../Core/Src/I2C/INA219.c:168:6:INA219_SetConfig	16	static
+../Core/Src/I2C/INA219.c:177:6:INA219_SetCalibration_16V_8A	24	static
+../Core/Src/I2C/INA219.c:206:9:INA219_Init	32	static

@@ -5,13 +5,16 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../Core/Src/I2C/I2C_Init.c 
+../Core/Src/I2C/I2C_Init.c \
+../Core/Src/I2C/INA219.c 
 
 OBJS += \
-./Core/Src/I2C/I2C_Init.o 
+./Core/Src/I2C/I2C_Init.o \
+./Core/Src/I2C/INA219.o 
 
 C_DEPS += \
-./Core/Src/I2C/I2C_Init.d 
+./Core/Src/I2C/I2C_Init.d \
+./Core/Src/I2C/INA219.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
@@ -21,7 +24,7 @@ Core/Src/I2C/%.o Core/Src/I2C/%.su Core/Src/I2C/%.cyclo: ../Core/Src/I2C/%.c Cor
 clean: clean-Core-2f-Src-2f-I2C
 
 clean-Core-2f-Src-2f-I2C:
-	-$(RM) ./Core/Src/I2C/I2C_Init.cyclo ./Core/Src/I2C/I2C_Init.d ./Core/Src/I2C/I2C_Init.o ./Core/Src/I2C/I2C_Init.su
+	-$(RM) ./Core/Src/I2C/I2C_Init.cyclo ./Core/Src/I2C/I2C_Init.d ./Core/Src/I2C/I2C_Init.o ./Core/Src/I2C/I2C_Init.su ./Core/Src/I2C/INA219.cyclo ./Core/Src/I2C/INA219.d ./Core/Src/I2C/INA219.o ./Core/Src/I2C/INA219.su
 
 .PHONY: clean-Core-2f-Src-2f-I2C
 

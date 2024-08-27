@@ -18,6 +18,7 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "i2c.h"
 #include "tim.h"
 #include "gpio.h"
 
@@ -26,7 +27,7 @@
 #include "Switch.h"
 #include "SPI/lcd.h"
 #include "SPI/image.h"
-#include "I2C/I2C_Init.h"
+#include "I2C/INA219.h"
 //#include "lcdfont.h"
 /* USER CODE END Includes */
 
@@ -103,6 +104,7 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_TIM2_Init();
+  MX_I2C1_Init();
   /* USER CODE BEGIN 2 */
   Fan_Init(&htim2);
   LCD_BLK_Set();
@@ -111,6 +113,10 @@ int main(void)
   LCD_Init();
   LCD_clear();
   HAL_Delay(50);
+
+  INA219_t ina219;
+  uint16_t vbus, vshunt, current;
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -121,11 +127,24 @@ int main(void)
 	  HAL_Delay(1);
 	  LCD_ShowPicture(gImage_Fan2, 25, 2);
 	  HAL_Delay(1);
-	  LCD_ShowPicture(gImage_Fan3, 25, 2);
-	  HAL_Delay(1);
+//	  LCD_ShowPicture(gImage_Fan3, 25, 2);
+//	  HAL_Delay(1);
 
-	  uint8_t *s = "bitch";
-	  LCD_ShowString(2, 90, s, WHITE, BLACK, 24, 0);
+	  INA219_Init(&ina219, &hi2c1, INA219_ADDRESS);
+	  vbus = INA219_ReadBusVoltage(&ina219);
+	  vshunt = INA219_ReadShuntVoltage_mV(&ina219);
+	  current = INA219_ReadCurrent_mA(&ina219);
+
+	  uint8_t *v = "V:";
+	  LCD_ShowString(2, 90, v, WHITE, BLACK, 24, 0);
+	  LCD_ShowFloatNum1(30, 90, vbus, 4,WHITE, BLACK, 24);
+	  uint8_t *mv = "mV:";
+	  LCD_ShowString(2, 120, mv, WHITE, BLACK, 24, 0);
+	  LCD_ShowFloatNum1(30, 120, vshunt, 5,WHITE, BLACK, 24);
+	  uint8_t *a = "mA:";
+	  LCD_ShowString(2, 150, a, WHITE, BLACK, 24, 0);
+	  LCD_ShowFloatNum1(30, 150, current, 5,WHITE, BLACK, 24);
+	  HAL_Delay(20);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

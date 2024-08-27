@@ -1,255 +1,27 @@
-22:47:34 **** Build of configuration Debug for project Fan_Driver ****
+23:40:49 **** Incremental Build of configuration Debug for project Fan_Driver ****
 make -j12 all 
-arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o"
-arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o"
-arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o"
-arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o"
-arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o"
-arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o"
-arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o"
-arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o"
-arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o"
-arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o"
-arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o"
-arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o"
-arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o"
-arm-none-eabi-gcc -mcpu=cortex-m3 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32f103c8tx.d" -MT"Core/Startup/startup_stm32f103c8tx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Startup/startup_stm32f103c8tx.o" "../Core/Startup/startup_stm32f103c8tx.s"
-arm-none-eabi-gcc "../Core/Src/picture/Fan1.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/picture/Fan1.d" -MT"Core/Src/picture/Fan1.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/picture/Fan1.o"
-arm-none-eabi-gcc "../Core/Src/picture/Fan2.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/picture/Fan2.d" -MT"Core/Src/picture/Fan2.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/picture/Fan2.o"
-arm-none-eabi-gcc "../Core/Src/picture/Fan3.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/picture/Fan3.d" -MT"Core/Src/picture/Fan3.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/picture/Fan3.o"
-arm-none-eabi-gcc "../Core/Src/picture/love.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/picture/love.d" -MT"Core/Src/picture/love.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/picture/love.o"
-arm-none-eabi-gcc "../Core/Src/SPI/lcd.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/SPI/lcd.d" -MT"Core/Src/SPI/lcd.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/SPI/lcd.o"
-arm-none-eabi-gcc "../Core/Src/SPI/lcd_Init.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/SPI/lcd_Init.d" -MT"Core/Src/SPI/lcd_Init.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/SPI/lcd_Init.o"
-arm-none-eabi-gcc "../Core/Src/I2C/I2C_Init.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/I2C/I2C_Init.d" -MT"Core/Src/I2C/I2C_Init.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/I2C/I2C_Init.o"
-arm-none-eabi-gcc "../Core/Src/Switch.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Switch.d" -MT"Core/Src/Switch.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/Switch.o"
-arm-none-eabi-gcc "../Core/Src/gpio.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/gpio.d" -MT"Core/Src/gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/gpio.o"
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-In file included from ../Core/Src/SPI/lcd.c:2:
-../Core/Src/SPI/lcdfont.h:411:1: warning: initializer-string for array of 'unsigned char' is too long
-  411 | "�?",0x20,0x00,0x20,0x00,0x20,0x00,0xFE,0x03,0x22,0x02,0x22,0x02,0x22,0x02,0xFE,0x03,
-      | ^~~~
-../Core/Src/SPI/lcdfont.h:411:1: note: (near initialization for 'tfont12[0].Index')
-../Core/Src/SPI/lcdfont.h:413:1: warning: initializer-string for array of 'unsigned char' is too long
-  413 | "�?",0xFC,0x01,0x04,0x01,0xFC,0x01,0x04,0x01,0xFC,0x01,0x20,0x00,0xFF,0x07,0x04,0x01,
-      | ^~~~
-../Core/Src/SPI/lcdfont.h:413:1: note: (near initialization for 'tfont12[1].Index')
-../Core/Src/SPI/lcdfont.h:415:1: warning: initializer-string for array of 'unsigned char' is too long
-  415 | "�?",0xFE,0x07,0x02,0x04,0xFA,0x04,0x02,0x04,0x02,0x04,0xFE,0x05,0x52,0x04,0x52,0x04,
-      | ^~~~
-../Core/Src/SPI/lcdfont.h:415:1: note: (near initialization for 'tfont12[2].Index')
-../Core/Src/SPI/lcdfont.h:417:1: warning: initializer-string for array of 'unsigned char' is too long
-  417 | "�?",0x10,0x00,0x10,0x00,0xFF,0x01,0x11,0x01,0x11,0x01,0xFF,0x01,0x11,0x01,0x11,0x01,
-      | ^~~~
-../Core/Src/SPI/lcdfont.h:417:1: note: (near initialization for 'tfont12[3].Index')
-../Core/Src/SPI/lcdfont.h:419:1: warning: initializer-string for array of 'unsigned char' is too long
-  419 | "�?",0x00,0x00,0xFC,0x01,0x80,0x00,0x40,0x00,0x20,0x00,0x20,0x00,0xFF,0x07,0x20,0x00,
-      | ^~~~
-../Core/Src/SPI/lcdfont.h:419:1: note: (near initialization for 'tfont12[4].Index')
-../Core/Src/SPI/lcdfont.h:410:29: warning: missing braces around initializer [-Wmissing-braces]
-  410 | const typFNT_GB12 tfont12[]={
-      |                             ^
-  411 | "�?",0x20,0x00,0x20,0x00,0x20,0x00,0xFE,0x03,0x22,0x02,0x22,0x02,0x22,0x02,0xFE,0x03,
-      | {    {
-  412 | 0x22,0x02,0x20,0x00,0x20,0x00,0x20,0x00,/*"�?",0*/
-      |                                        }}
-  413 | "�?",0xFC,0x01,0x04,0x01,0xFC,0x01,0x04,0x01,0xFC,0x01,0x20,0x00,0xFF,0x07,0x04,0x01,
-      | {    {
-  414 | 0xFC,0x01,0x20,0x00,0x24,0x01,0x32,0x02,/*"�?",1*/
-      |                                        }}
-  415 | "�?",0xFE,0x07,0x02,0x04,0xFA,0x04,0x02,0x04,0x02,0x04,0xFE,0x05,0x52,0x04,0x52,0x04,
-      | {    {
-  416 | 0x4A,0x05,0x86,0x05,0x02,0x04,0xFE,0x07,/*"�?",2*/
-      |                                        }}
-  417 | "�?",0x10,0x00,0x10,0x00,0xFF,0x01,0x11,0x01,0x11,0x01,0xFF,0x01,0x11,0x01,0x11,0x01,
-      | {    {
-  418 | 0xFF,0x01,0x11,0x04,0x10,0x04,0xE0,0x07,/*"�?",3*/
-      |                                        }}
-  419 | "�?",0x00,0x00,0xFC,0x01,0x80,0x00,0x40,0x00,0x20,0x00,0x20,0x00,0xFF,0x07,0x20,0x00,
-      | {    {
-......
-  422 | };
-      | }}
-../Core/Src/SPI/lcdfont.h:433:1: warning: initializer-string for array of 'unsigned char' is too long
-  433 | "�?",0x80,0x00,0x80,0x00,0x80,0x00,0x80,0x00,0xFC,0x1F,0x84,0x10,0x84,0x10,0x84,0x10,
-      | ^~~~
-../Core/Src/SPI/lcdfont.h:433:1: note: (near initialization for 'tfont16[0].Index')
-../Core/Src/SPI/lcdfont.h:435:1: warning: initializer-string for array of 'unsigned char' is too long
-  435 | "�?",0xF8,0x0F,0x08,0x08,0xF8,0x0F,0x08,0x08,0xF8,0x0F,0x80,0x00,0xFF,0x7F,0x00,0x00,
-      | ^~~~
-../Core/Src/SPI/lcdfont.h:435:1: note: (near initialization for 'tfont16[1].Index')
-../Core/Src/SPI/lcdfont.h:437:1: warning: initializer-string for array of 'unsigned char' is too long
-  437 | "�?",0x00,0x00,0xFE,0x3F,0x02,0x20,0xF2,0x27,0x02,0x20,0x02,0x20,0xFA,0x2F,0x22,0x21,
-      | ^~~~
-../Core/Src/SPI/lcdfont.h:437:1: note: (near initialization for 'tfont16[2].Index')
-../Core/Src/SPI/lcdfont.h:439:1: warning: initializer-string for array of 'unsigned char' is too long
-  439 | "�?",0x80,0x00,0x80,0x00,0x80,0x00,0xFC,0x1F,0x84,0x10,0x84,0x10,0x84,0x10,0xFC,0x1F,
-      | ^~~~
-../Core/Src/SPI/lcdfont.h:439:1: note: (near initialization for 'tfont16[3].Index')
-../Core/Src/SPI/lcdfont.h:441:1: warning: initializer-string for array of 'unsigned char' is too long
-  441 | "�?",0x00,0x00,0xFE,0x1F,0x00,0x08,0x00,0x04,0x00,0x02,0x80,0x01,0x80,0x00,0xFF,0x7F,
-      | ^~~~
-../Core/Src/SPI/lcdfont.h:441:1: note: (near initialization for 'tfont16[4].Index')
-../Core/Src/SPI/lcdfont.h:431:29: warning: missing braces around initializer [-Wmissing-braces]
-  431 | const typFNT_GB16 tfont16[]={
-      |                             ^
-  432 | 
-  433 | "�?",0x80,0x00,0x80,0x00,0x80,0x00,0x80,0x00,0xFC,0x1F,0x84,0x10,0x84,0x10,0x84,0x10,
-      | {    {
-  434 | 0x84,0x10,0x84,0x10,0xFC,0x1F,0x84,0x10,0x80,0x00,0x80,0x00,0x80,0x00,0x80,0x00,/*"�?",0*/
-      |                                                                                }}
-  435 | "�?",0xF8,0x0F,0x08,0x08,0xF8,0x0F,0x08,0x08,0xF8,0x0F,0x80,0x00,0xFF,0x7F,0x00,0x00,
-      | {    {
-  436 | 0xF8,0x0F,0x08,0x08,0x08,0x08,0xF8,0x0F,0x80,0x00,0x84,0x10,0xA2,0x20,0x40,0x00,/*"�?",1*/
-      |                                                                                }}
-  437 | "�?",0x00,0x00,0xFE,0x3F,0x02,0x20,0xF2,0x27,0x02,0x20,0x02,0x20,0xFA,0x2F,0x22,0x21,
-      | {    {
-  438 | 0x22,0x21,0x22,0x21,0x12,0x29,0x12,0x29,0x0A,0x2E,0x02,0x20,0xFE,0x3F,0x02,0x20,/*"�?",2*/
-      |                                                                                }}
-  439 | "�?",0x80,0x00,0x80,0x00,0x80,0x00,0xFC,0x1F,0x84,0x10,0x84,0x10,0x84,0x10,0xFC,0x1F,
-      | {    {
-  440 | 0x84,0x10,0x84,0x10,0x84,0x10,0xFC,0x1F,0x84,0x50,0x80,0x40,0x80,0x40,0x00,0x7F,/*"�?",3*/
-      |                                                                                }}
-  441 | "�?",0x00,0x00,0xFE,0x1F,0x00,0x08,0x00,0x04,0x00,0x02,0x80,0x01,0x80,0x00,0xFF,0x7F,
-      | {    {
-  442 | 0x80,0x00,0x80,0x00,0x80,0x00,0x80,0x00,0x80,0x00,0x80,0x00,0xA0,0x00,0x40,0x00,/*"�?",4*/
-  443 | };
-      | }}
-../Core/Src/SPI/lcdfont.h:455:1: warning: initializer-string for array of 'unsigned char' is too long
-  455 | "�?",0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x18,0x00,0x00,0x08,0x00,0x00,0x08,0x00,0x00,
-      | ^~~~
-../Core/Src/SPI/lcdfont.h:455:1: note: (near initialization for 'tfont24[0].Index')
-../Core/Src/SPI/lcdfont.h:461:1: warning: initializer-string for array of 'unsigned char' is too long
-  461 | "�?",0x00,0x00,0x00,0x00,0x00,0x00,0x40,0x00,0x06,0xC0,0xFF,0x07,0x40,0x00,0x06,0xC0,
-      | ^~~~
-../Core/Src/SPI/lcdfont.h:461:1: note: (near initialization for 'tfont24[1].Index')
-../Core/Src/SPI/lcdfont.h:467:1: warning: initializer-string for array of 'unsigned char' is too long
-arm-none-eabi-gcc "../Core/Src/stm32f1xx_hal_msp.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f1xx_hal_msp.d" -MT"Core/Src/stm32f1xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_hal_msp.o"
-  467 | "�?",0x00,0x00,0x00,0x00,0x00,0x00,0x08,0x00,0x30,0xF8,0xFF,0x1F,0x08,0x00,0x10,0x08,
-      | ^~~~
-../Core/Src/SPI/lcdfont.h:467:1: note: (near initialization for 'tfont24[2].Index')
-../Core/Src/SPI/lcdfont.h:473:1: warning: initializer-string for array of 'unsigned char' is too long
-  473 | "�?",0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x18,0x00,0x00,0x08,0x00,0x00,0x08,0x00,0x00,
-      | ^~~~
-../Core/Src/SPI/lcdfont.h:473:1: note: (near initialization for 'tfont24[3].Index')
-../Core/Src/SPI/lcdfont.h:479:1: warning: initializer-string for array of 'unsigned char' is too long
-  479 | "�?",0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x04,0xF0,0xFF,0x0F,0x00,0x00,0x06,0x00,
-      | ^~~~
-../Core/Src/SPI/lcdfont.h:479:1: note: (near initialization for 'tfont24[4].Index')
-../Core/Src/SPI/lcdfont.h:453:29: warning: missing braces around initializer [-Wmissing-braces]
-  453 | const typFNT_GB24 tfont24[]={
-      |                             ^
-  454 | 
-  455 | "�?",0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x18,0x00,0x00,0x08,0x00,0x00,0x08,0x00,0x00,
-      | {    {
-......
-  459 | 0x18,0x00,0x00,0x18,0x00,0x00,0x00,0x00,/*"�?",0*/
-      |                                        }}
-  460 | 
-  461 | "�?",0x00,0x00,0x00,0x00,0x00,0x00,0x40,0x00,0x06,0xC0,0xFF,0x07,0x40,0x00,0x06,0xC0,
-      | {    {
-......
-  465 | 0x1E,0x30,0x00,0x1C,0x00,0x00,0x00,0x00,/*"�?",1*/
-      |                                        }}
-  466 | 
-  467 | "�?",0x00,0x00,0x00,0x00,0x00,0x00,0x08,0x00,0x30,0xF8,0xFF,0x1F,0x08,0x00,0x10,0x08,
-      | {    {
-......
-  471 | 0xFF,0x1F,0x08,0x00,0x10,0x00,0x00,0x00,/*"�?",2*/
-      |                                        }}
-  472 | 
-  473 | "�?",0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x18,0x00,0x00,0x08,0x00,0x00,0x08,0x00,0x00,
-      | {    {
-......
-  477 | 0x18,0x30,0x00,0xF0,0x1F,0x00,0x00,0x00,/*"�?",3*/
-      |                                        }}
-  478 | 
-  479 | "�?",0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x04,0xF0,0xFF,0x0F,0x00,0x00,0x06,0x00,
-      | {    {
-......
-  485 | };
-      | }}
-../Core/Src/SPI/lcdfont.h:497:1: warning: initializer-string for array of 'unsigned char' is too long
-  497 | "�?",0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x80,0x00,0x00,0x00,0x80,0x01,0x00,
-      | ^~~~
-../Core/Src/SPI/lcdfont.h:497:1: note: (near initialization for 'tfont32[0].Index')
-../Core/Src/SPI/lcdfont.h:505:1: warning: initializer-string for array of 'unsigned char' is too long
-  505 | "�?",0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x01,0x80,0x01,
-      | ^~~~
-../Core/Src/SPI/lcdfont.h:505:1: note: (near initialization for 'tfont32[1].Index')
-../Core/Src/SPI/lcdfont.h:513:1: warning: initializer-string for array of 'unsigned char' is too long
-  513 | "�?",0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x08,0xF0,0xFF,0xFF,0x1F,
-      | ^~~~
-../Core/Src/SPI/lcdfont.h:513:1: note: (near initialization for 'tfont32[2].Index')
-../Core/Src/SPI/lcdfont.h:521:1: warning: initializer-string for array of 'unsigned char' is too long
-  521 | "�?",0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xC0,0x00,0x00,0x00,0xC0,0x01,0x00,
-      | ^~~~
-../Core/Src/SPI/lcdfont.h:521:1: note: (near initialization for 'tfont32[3].Index')
-../Core/Src/SPI/lcdfont.h:529:1: warning: initializer-string for array of 'unsigned char' is too long
-  529 | "�?",0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x03,
-      | ^~~~
-../Core/Src/SPI/lcdfont.h:529:1: note: (near initialization for 'tfont32[4].Index')
-../Core/Src/SPI/lcdfont.h:495:29: warning: missing braces around initializer [-Wmissing-braces]
-  495 | const typFNT_GB32 tfont32[]={
-      |                             ^
-  496 | 
-  497 | "�?",0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x80,0x00,0x00,0x00,0x80,0x01,0x00,
-      | {    {
-......
-  504 | 0x00,0x80,0x01,0x00,0x00,0x80,0x01,0x00,0x00,0x80,0x00,0x00,0x00,0x00,0x00,0x00,/*"�?",0*/
-      |                                                                                }}
-  505 | "�?",0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x01,0x80,0x01,
-      | {    {
-......
-  512 | 0x18,0x98,0x01,0x1C,0x04,0xE0,0x01,0x18,0x00,0xC0,0x00,0x00,0x00,0x00,0x00,0x00,/*"�?",1*/
-      |                                                                                }}
-  513 | "�?",0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x08,0xF0,0xFF,0xFF,0x1F,
-      | {    {
-......
-  520 | 0xF0,0xFF,0xFF,0x0F,0x30,0x00,0x00,0x0C,0x10,0x00,0x00,0x04,0x00,0x00,0x00,0x00,/*"�?",2*/
-      |                                                                                }}
-  521 | "�?",0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xC0,0x00,0x00,0x00,0xC0,0x01,0x00,
-      | {    {
-......
-  528 | 0x00,0xC0,0x01,0x38,0x00,0x80,0xFF,0x1F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,/*"�?",3*/
-      |                                                                                }}
-  529 | "�?",0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x03,
-      | {    {
-......
-  537 | };
-      | }}
-../Core/Src/SPI/lcd.c: In function 'LCD_ShowPicture':
-../Core/Src/SPI/lcd.c:548:18: warning: unused variable 'rgb' [-Wunused-variable]
-  548 |         uint16_t rgb = address[6];      //RGB颜色分量排列顺序
-      |                  ^~~
-../Core/Src/SPI/lcd.c:547:18: warning: unused variable 'is565' [-Wunused-variable]
-  547 |         uint16_t is565 = address[4];   //代表颜色格式
-      |                  ^~~~~
-../Core/Src/SPI/lcd.c:544:18: warning: unused variable 'gray' [-Wunused-variable]
-  544 |         uint16_t gray = address[1];
-      |                  ^~~~
-../Core/Src/SPI/lcd.c:543:18: warning: unused variable 'scan' [-Wunused-variable]
-  543 |         uint16_t scan = address[0];//扫描模式  Bit7�?0：自左至右扫描，1：自右至左扫描�?�Bit6�?0：自顶至底扫描，1：自底至顶扫描�?�Bit5�?0：字节内象素数据从高位到低位排列�?1：字节内象素数据从低位到高位排列。Bit4�?0：WORD类型高低位字节顺序与PC相同�?1：WORD类型高低位字节顺序与PC相反。Bit32�? 保留。Bit10：[00]水平扫描，[01]垂直扫描，[10]数据水平，字节垂直，[11]数据垂直，字节水平�??
-      |                  ^~~~
-arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
-arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/syscalls.o"
-arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/sysmem.o"
-arm-none-eabi-gcc "../Core/Src/system_stm32f1xx.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32f1xx.d" -MT"Core/Src/system_stm32f1xx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/system_stm32f1xx.o"
 ../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:127:24: warning: pointer targets in initialization of 'uint8_t *' {aka 'unsigned char *'} from 'char *' differ in signedness [-Wpointer-sign]
-  127 |           uint8_t *s = "bitch";
-      |                        ^~~~~~~
-arm-none-eabi-gcc "../Core/Src/tim.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/tim.d" -MT"Core/Src/tim.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/tim.o"
+../Core/Src/main.c:138:24: warning: pointer targets in initialization of 'uint8_t *' {aka 'unsigned char *'} from 'char *' differ in signedness [-Wpointer-sign]
+  138 |           uint8_t *v = "V:";
+      |                        ^~~~
+../Core/Src/main.c:141:25: warning: pointer targets in initialization of 'uint8_t *' {aka 'unsigned char *'} from 'char *' differ in signedness [-Wpointer-sign]
+  141 |           uint8_t *mv = "mV:";
+      |                         ^~~~~
+../Core/Src/main.c:144:24: warning: pointer targets in initialization of 'uint8_t *' {aka 'unsigned char *'} from 'char *' differ in signedness [-Wpointer-sign]
+  144 |           uint8_t *a = "mA:";
+      |                        ^~~~~
 arm-none-eabi-gcc -o "Fan_Driver.elf" @"objects.list"   -mcpu=cortex-m3 -T"I:\document\Stm32_Cube\Fan_Driver\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Fan_Driver.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 Finished building target: Fan_Driver.elf
  
 arm-none-eabi-size  Fan_Driver.elf 
 arm-none-eabi-objdump -h -S Fan_Driver.elf  > "Fan_Driver.list"
    text	   data	    bss	    dec	    hex	filename
-  62464	     12	   1716	  64192	   fac0	Fan_Driver.elf
+  56908	     12	   1812	  58732	   e56c	Fan_Driver.elf
 Finished building: default.size.stdout
  
 Finished building: Fan_Driver.list
  
 
-22:47:36 Build Finished. 0 errors, 29 warnings. (took 2s.374ms)
+23:40:50 Build Finished. 0 errors, 3 warnings. (took 1s.16ms)
 

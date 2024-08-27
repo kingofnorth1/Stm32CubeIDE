@@ -13,9 +13,9 @@
 #include "gpio.h"
 
 
-#define SDA_Write(BitValue) HAL_GPIO_WritePin(GPIOB, SDA_Pin, (GPIO_PinState)BitValue)
-#define SCL_Write(BitValue) HAL_GPIO_WritePin(GPIOB, SCL_Pin, (GPIO_PinState)BitValue)
-#define SDA_Read() HAL_GPIO_ReadPin(GPIOB, SDA_Pin)
+//#define SDA_Write(BitValue) HAL_GPIO_WritePin(GPIOB, SDA_Pin, (GPIO_PinState)BitValue)
+//#define SCL_Write(BitValue) HAL_GPIO_WritePin(GPIOB, SCL_Pin, (GPIO_PinState)BitValue)
+//#define SDA_Read() HAL_GPIO_ReadPin(GPIOB, SDA_Pin)
 
 
 void I2C_Start(void);
