@@ -17,7 +17,7 @@
 //#define SCL_Write(BitValue) HAL_GPIO_WritePin(GPIOB, SCL_Pin, (GPIO_PinState)BitValue)
 //#define SDA_Read() HAL_GPIO_ReadPin(GPIOB, SDA_Pin)
 
-
+void HAL_Delay_us(uint32_t us);
 void I2C_Start(void);
 void I2C_End(void);
 void I2C_SendByte(uint8_t Byte);

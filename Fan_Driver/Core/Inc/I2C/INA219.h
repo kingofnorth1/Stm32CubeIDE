@@ -9,6 +9,7 @@
 #define INC_I2C_INA219_H_
 
 #include "stm32f1xx_hal.h"
+//#include "I2C/I2C_Init.h"
 
 #define R_Address 0x81
 #define W_Address 0x80
@@ -77,6 +78,7 @@ typedef struct
 
 
 uint8_t INA219_Init(INA219_t *ina219, I2C_HandleTypeDef *i2c, uint8_t Address);
+//uint8_t INA219_Init(INA219_t *ina219, uint8_t Address);
 uint16_t INA219_ReadBusVoltage(INA219_t *ina219);
 uint16_t INA219_ReadCurrent_mA(INA219_t *ina219);
 uint16_t INA219_ReadCurrent_raw(INA219_t *ina219);

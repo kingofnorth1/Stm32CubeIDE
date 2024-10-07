@@ -1,7 +1,7 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:C8T6 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Fan_Driver Debug
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:BLE Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:F407Interrupt Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:F407Key Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:F407LED Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:F407OLED Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:F407USART Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:F407_BMP280 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:F407_FreeRTOS_LED Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:C8T6 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Fan_Driver Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:F407TIM_InputCapture Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:F407iic Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:F407iic_Interrupt_DMA
 eclipse.preferences.version=1
-org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:C8T6\ Debug/activeLaunchMode=run
-org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:C8T6\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:BLE\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:BLE\ Debug/activeLaunchTarget=null\:---

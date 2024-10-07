@@ -10,36 +10,38 @@ uint16_t ina219_calibrationValue;
 uint16_t ina219_currentDivider_mA;
 float ina219_powerMultiplier_mW;
 
-//uint16_t INA219_ReadDataForRegister_16Bits(uint8_t RegAddress)
+//uint16_t INA219_ReadDataForRegister_16Bits(INA219_t *ina219, uint8_t registerAddress)
 //{
-//	uint16_t Data;
+//	uint8_t Data[2];
 //
 //	I2C_Start();
 //	I2C_SendByte(W_Address);
 //	I2C_ReceiveAck();
-//	I2C_SendByte(RegAddress);
+//	I2C_SendByte(registerAddress);
 //	I2C_ReceiveAck();
 //
 //	I2C_Start();
 //	I2C_SendByte(R_Address);
 //	I2C_ReceiveAck();
-//	Data = I2C_ReceiveByte()&0xFF;
+//	Data[0] = I2C_ReceiveByte();
 //	I2C_SendAck(1);
-//	Data = I2C_ReceiveByte()<<8;
+//	Data[1] = I2C_ReceiveByte();
 //	I2C_SendAck(1);
 //	I2C_End();
 //
-//	return Data;
+//	return ((Data[0]<<8) | Data[1]);
 //}
-
-//void INA219_WriteDataToRegister_16Bits(uint8_t RegAddress, uint16_t Data)
+//
+//void INA219_WriteDataToRegister_16Bits(INA219_t *ina219, uint8_t registerAddress, uint16_t Value)
 //{
 //	I2C_Start();
 //	I2C_SendByte(W_Address);
 //	I2C_ReceiveAck();
-//	I2C_SendByte(Data>>8);
+//	I2C_SendByte(registerAddress);
 //	I2C_ReceiveAck();
-//	I2C_SendByte((uint8_t)Data);
+//	I2C_SendByte((Value>>8)& 0xff);
+//	I2C_ReceiveAck();
+//	I2C_SendByte((Value>>0)& 0xff);
 //	I2C_ReceiveAck();
 //	I2C_End();
 //}
@@ -204,6 +206,7 @@ void INA219_SetCalibration_16V_8A(INA219_t *ina219)
  * @return status.
  */
 uint8_t INA219_Init(INA219_t *ina219, I2C_HandleTypeDef *i2c, uint8_t Address)
+//uint8_t INA219_Init(INA219_t *ina219, uint8_t Address)
 {
   ina219->ina219_i2c = i2c;
   ina219->Address = Address;

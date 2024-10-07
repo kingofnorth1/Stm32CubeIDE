@@ -1,43 +1,26 @@
-22:43:50 **** Incremental Build of configuration Debug for project Fan_Driver ****
+23:56:20 **** Incremental Build of configuration Debug for project Demo ****
 make -j12 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:127:24: warning: pointer targets in initialization of 'uint8_t *' {aka 'unsigned char *'} from 'char *' differ in signedness [-Wpointer-sign]
-  127 |           uint8_t *s = "Test";
-      |                        ^~~~~~
-arm-none-eabi-gcc -o "Fan_Driver.elf" @"objects.list"   -mcpu=cortex-m3 -T"I:\document\Stm32_Cube\C8T6\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Fan_Driver.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Fan_Driver.elf
+arm-none-eabi-gcc "../Core/Src/RDA5807.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/RDA5807.d" -MT"Core/Src/RDA5807.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/RDA5807.o"
+In file included from ../Core/Inc/RDA5807.H:12,
+                 from ../Core/Src/RDA5807.c:12:
+../Core/Inc/I2C.h:7:13: warning: 'Delay' declared 'static' but never defined [-Wunused-function]
+    7 | static void Delay(void);
+      |             ^~~~~
+arm-none-eabi-gcc -o "Demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"I:\document\Stm32_Cube\Demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Demo.elf
  
-arm-none-eabi-size  Fan_Driver.elf 
-arm-none-eabi-objdump -h -S Fan_Driver.elf  > "Fan_Driver.list"
+arm-none-eabi-size  Demo.elf 
+arm-none-eabi-objdump -h -S Demo.elf  > "Demo.list"
    text	   data	    bss	    dec	    hex	filename
-  62464	     12	   1716	  64192	   fac0	Fan_Driver.elf
+   6840	     28	   1572	   8440	   20f8	Demo.elf
 Finished building: default.size.stdout
  
-Finished building: Fan_Driver.list
+Finished building: Demo.list
  
-22:43:57 **** Incremental Build of configuration Debug for project Fan_Driver ****
+23:56:22 **** Incremental Build of configuration Debug for project Demo ****
 make -j12 all 
-arm-none-eabi-size  Fan_Driver.elf 
+arm-none-eabi-size  Demo.elf 
    text	   data	    bss	    dec	    hex	filename
-  62464	     12	   1716	  64192	   fac0	Fan_Driver.elf
+   6840	     28	   1572	   8440	   20f8	Demo.elf
 Finished building: default.size.stdout
- 
-22:44:30 **** Incremental Build of configuration Debug for project Fan_Driver ****
-make -j12 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:127:24: warning: pointer targets in initialization of 'uint8_t *' {aka 'unsigned char *'} from 'char *' differ in signedness [-Wpointer-sign]
-  127 |           uint8_t *s = "noting";
-      |                        ^~~~~~~~
-arm-none-eabi-gcc -o "Fan_Driver.elf" @"objects.list"   -mcpu=cortex-m3 -T"I:\document\Stm32_Cube\C8T6\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Fan_Driver.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Fan_Driver.elf
- 
-arm-none-eabi-size  Fan_Driver.elf 
-arm-none-eabi-objdump -h -S Fan_Driver.elf  > "Fan_Driver.list"
-   text	   data	    bss	    dec	    hex	filename
-  62464	     12	   1716	  64192	   fac0	Fan_Driver.elf
-Finished building: default.size.stdout
- 
-Finished building: Fan_Driver.list
  

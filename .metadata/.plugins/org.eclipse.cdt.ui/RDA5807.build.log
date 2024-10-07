@@ -1,0 +1,10 @@
+23:35:54 **** Incremental Build of configuration Debug for project RDA5807 ****
+make -j12 all 
+arm-none-eabi-size  RDA5807.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8984	     28	   1660	  10672	   29b0	RDA5807.elf
+Finished building: default.size.stdout
+ 
+
+23:35:55 Build Finished. 0 errors, 0 warnings. (took 419ms)
+

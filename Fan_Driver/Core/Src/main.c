@@ -131,6 +131,7 @@ int main(void)
 //	  HAL_Delay(1);
 
 	  INA219_Init(&ina219, &hi2c1, INA219_ADDRESS);
+//	  INA219_Init(&ina219, INA219_ADDRESS);
 	  vbus = INA219_ReadBusVoltage(&ina219);
 	  vshunt = INA219_ReadShuntVoltage_mV(&ina219);
 	  current = INA219_ReadCurrent_mA(&ina219);
