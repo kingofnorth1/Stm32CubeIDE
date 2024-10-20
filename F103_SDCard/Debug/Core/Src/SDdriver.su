@@ -1,0 +1,13 @@
+../Core/Src/SDdriver.c:14:6:SD_CS	16	static
+../Core/Src/SDdriver.c:24:5:SD_sendcmd	24	static
+../Core/Src/SDdriver.c:54:9:SD_init	32	static
+../Core/Src/SDdriver.c:127:9:SD_ReceiveData	24	static
+../Core/Src/SDdriver.c:147:9:SD_SendBlock	24	static
+../Core/Src/SDdriver.c:168:9:SD_GETCID	24	static
+../Core/Src/SDdriver.c:180:9:SD_GETCSD	24	static
+../Core/Src/SDdriver.c:192:10:SD_GetSectorCount	32	static
+../Core/Src/SDdriver.c:213:5:MSD0_GetCardInfo	56	static
+../Core/Src/SDdriver.c:359:9:SD_WriteDisk	32	static
+../Core/Src/SDdriver.c:396:9:SD_ReadDisk	32	static
+../Core/Src/SDdriver.c:424:9:spi_readwrite	32	static
+../Core/Src/SDdriver.c:430:6:SPI_setspeed	16	static

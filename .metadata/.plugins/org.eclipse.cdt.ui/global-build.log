@@ -1,26 +1,105 @@
-23:56:20 **** Incremental Build of configuration Debug for project Demo ****
+23:27:26 **** Incremental Build of configuration Debug for project F103_SDCard ****
 make -j12 all 
-arm-none-eabi-gcc "../Core/Src/RDA5807.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/RDA5807.d" -MT"Core/Src/RDA5807.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/RDA5807.o"
-In file included from ../Core/Inc/RDA5807.H:12,
-                 from ../Core/Src/RDA5807.c:12:
-../Core/Inc/I2C.h:7:13: warning: 'Delay' declared 'static' but never defined [-Wunused-function]
-    7 | static void Delay(void);
-      |             ^~~~~
-arm-none-eabi-gcc -o "Demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"I:\document\Stm32_Cube\Demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Demo.elf
- 
-arm-none-eabi-size  Demo.elf 
-arm-none-eabi-objdump -h -S Demo.elf  > "Demo.list"
-   text	   data	    bss	    dec	    hex	filename
-   6840	     28	   1572	   8440	   20f8	Demo.elf
-Finished building: default.size.stdout
- 
-Finished building: Demo.list
- 
-23:56:22 **** Incremental Build of configuration Debug for project Demo ****
-make -j12 all 
-arm-none-eabi-size  Demo.elf 
-   text	   data	    bss	    dec	    hex	filename
-   6840	     28	   1572	   8440	   20f8	Demo.elf
-Finished building: default.size.stdout
- 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:68:19: error: unknown type name 'FILE'
+   68 | int fputc(int ch, FILE *f)
+      |                   ^~~~
+../Core/Src/main.c:27:1: note: 'FILE' is defined in header '<stdio.h>'; did you forget to '#include <stdio.h>'?
+   26 | #include "SDdriver.h"
+  +++ |+#include <stdio.h>
+   27 | 
+../Core/Src/main.c: In function 'WritetoSD':
+../Core/Src/main.c:101:17: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  101 |                 printf("SD卡初始化失败! \r\n");
+      |                 ^~~~~~
+../Core/Src/main.c:101:17: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:101:17: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+../Core/Src/main.c:101:17: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:105:17: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  105 |                 printf("SD卡初始化成功！ \r\n");
+      |                 ^~~~~~
+../Core/Src/main.c:105:17: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:114:17: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  114 |                 printf("没有文件系统! \r\n");
+      |                 ^~~~~~
+../Core/Src/main.c:114:17: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:133:17: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  133 |                 printf("挂载成功! \r\n");
+      |                 ^~~~~~
+../Core/Src/main.c:133:17: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:137:17: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  137 |                 printf("挂载失败! \r\n");
+      |                 ^~~~~~
+../Core/Src/main.c:137:17: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:143:17: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  143 |                 printf("卡存储已满，写入失败!\r\n");
+      |                 ^~~~~~
+../Core/Src/main.c:143:17: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:149:17: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  149 |                 printf("打开成功/创建文件成功！ \r\n");
+      |                 ^~~~~~
+../Core/Src/main.c:149:17: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:162:17: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  162 |                 printf("打开文件失败!\r\n");
+      |                 ^~~~~~
+../Core/Src/main.c:162:17: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c: In function 'Get_SDCard_Capacity':
+../Core/Src/main.c:183:17: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  183 |                 printf("SD卡初始化失败! \r\n");
+      |                 ^~~~~~
+../Core/Src/main.c:183:17: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:187:17: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  187 |                 printf("SD卡初始化成功！ \r\n");
+      |                 ^~~~~~
+../Core/Src/main.c:187:17: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:194:17: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  194 |                 printf("FileSystem Mounted Failed (%d)\r\n", result);
+      |                 ^~~~~~
+../Core/Src/main.c:194:17: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:204:17: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  204 |                 printf("\r\n%d MB total drive space.\r\n""%d MB available.\r\n""%d MB  used.\r\n",TotalSpace, AvailableSize,UsedSize);
+      |                 ^~~~~~
+../Core/Src/main.c:204:17: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:204:24: warning: format '%d' expects argument of type 'int', but argument 3 has type 'DWORD' {aka 'long unsigned int'} [-Wformat=]
+  204 |                 printf("\r\n%d MB total drive space.\r\n""%d MB available.\r\n""%d MB  used.\r\n",TotalSpace, AvailableSize,UsedSize);
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                     ~~~~~~~~~~~~~
+      |                                                                                                               |
+      |                                                                                                               DWORD {aka long unsigned int}
+../Core/Src/main.c:204:60: note: format string is defined here
+  204 |                 printf("\r\n%d MB total drive space.\r\n""%d MB available.\r\n""%d MB  used.\r\n",TotalSpace, AvailableSize,UsedSize);
+      |                                                           ~^
+      |                                                            |
+      |                                                            int
+      |                                                           %ld
+../Core/Src/main.c:204:24: warning: format '%d' expects argument of type 'int', but argument 4 has type 'DWORD' {aka 'long unsigned int'} [-Wformat=]
+  204 |                 printf("\r\n%d MB total drive space.\r\n""%d MB available.\r\n""%d MB  used.\r\n",TotalSpace, AvailableSize,UsedSize);
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                   ~~~~~~~~
+      |                                                                                                                             |
+      |                                                                                                                             DWORD {aka long unsigned int}
+../Core/Src/main.c:204:82: note: format string is defined here
+  204 |                 printf("\r\n%d MB total drive space.\r\n""%d MB available.\r\n""%d MB  used.\r\n",TotalSpace, AvailableSize,UsedSize);
+      |                                                                                 ~^
+      |                                                                                  |
+      |                                                                                  int
+      |                                                                                 %ld
+../Core/Src/main.c:208:17: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  208 |                 printf("Get SDCard Capacity Failed (%d)\r\n", result);
+      |                 ^~~~~~
+../Core/Src/main.c:208:17: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:251:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  251 |         printf(" mian \r\n");
+      |         ^~~~~~
+../Core/Src/main.c:251:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c: In function 'MX_GPIO_Init':
+../Core/Src/main.c:437:25: error: 'SCL_Pin' undeclared (first use in this function); did you mean 'SD_CS_Pin'?
+  437 |   GPIO_InitStruct.Pin = SCL_Pin|SDA_Pin;
+      |                         ^~~~~~~
+      |                         SD_CS_Pin
+../Core/Src/main.c:437:25: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:437:33: error: 'SDA_Pin' undeclared (first use in this function); did you mean 'SD_CS_Pin'?
+  437 |   GPIO_InitStruct.Pin = SCL_Pin|SDA_Pin;
+      |                                 ^~~~~~~
+      |                                 SD_CS_Pin
+make: *** [Core/Src/subdir.mk:46: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
